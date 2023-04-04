@@ -6,8 +6,6 @@
 
 
 <ol>
-   <li><h3><a href="#Section1">Make first project with ASP .Net
-</a></h3></li>
    <li><h3><a href="#Section2">Learn about file structure and test run
 </a></h3></li>
    <li><h3><a href="#Section3">Learn about LinkQ
