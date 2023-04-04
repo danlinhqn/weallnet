@@ -33,7 +33,8 @@ Thư mục thứ 3: Propeties, tại thư mục này chứa file launchSetting.j
 
 </p>
 
-<pre style=”font-size:15”>
+<pre >
+<h3>
 {
   "iisSettings": {
     "windowsAuthentication": false,
@@ -62,7 +63,7 @@ Thư mục thứ 3: Propeties, tại thư mục này chứa file launchSetting.j
     }
   }
 }
-
+</h3>
 </pre>
 
 
