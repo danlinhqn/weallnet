@@ -1,18 +1,12 @@
 <h1>Learn about Front End and Back End</h1>
 <h2>Outline</h2>
-
-
- 
-<h3>How many types of LoadBalancer are there ?</h3>
-
-
 <ol>
    
-   <li><a href="#Section1">Global server load balancing</a></li>
-   <li><a href="#Section2">Server Load Balancing</a></li>
-   <li><a href="#Section3">Network Load Balancing</a></li>
-   <li><a href="#Section4">Network Load Balancing</a></li>
-   <li><a href="#Section5">Cloud Load Balancing</a></li>
+   <li><h3><a href="#Section1">Global server load balancing</a></h3></li>
+   <li><h3><a href="#Section2">Server Load Balancing</a></h3></li>
+   <li><h3><a href="#Section3">Network Load Balancing</a></h3></li>
+   <li><h3><a href="#Section4">Network Load Balancing</a></h3></li>
+   <li><h3><a href="#Section5">Cloud Load Balancing</a></h3></li>
 </ol>
 
 
