@@ -64,8 +64,50 @@ Trong hạ tầng cloud, sẽ có nhiều sự lựa chọn cho việc cân bằ
 </ol>
 
 
+<h3>Information learn more</h3>
 
 
+<ol>
+
+
+
+
+<li><h4>Cổng TCP</h4></li>
+
+
+<li><h4>Cổng UDP</h4></li>
+
+
+<li><h4>Mô hình OSI là gì</h4></li>
+
+
+<li><h4>HTTP, HTTPS, SSL ( TLS ) -> Chứng chỉ bảo mật</h4></li>
+
+
+<li><h4>Kiến ​​trúc Client-server</h4></li>
+
+
+<li><h4>Congestion Control </h4></li>
+
+
+<li><h4>Pods là gì</h4></li>
+
+
+<li><h4>Giao thức truyền tải file đơn giản (TFTP)</h4></li>
+
+
+<li><h4>Giao thức truyền tin thời gian thực (RTSP)</h4></li>
+
+
+<li><h4>Giao thức liên mạng đơn giản (SNP)</h4></li>
+
+
+<li><h4>Hệ thống phân giải tên miền (DNS)</h4></li>
+
+
+
+
+</ol>
 
 
 
