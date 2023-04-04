@@ -32,7 +32,9 @@ Global server load balancing (cân bằng tải máy chủ toàn cầu – GSLB)
 </div>
 
 
-<li><h4>Server Load Balancing</h4></li>
+<li><h4>Mục tiêu phân chia khối lượng công việc ra nhiều máy chủ
+Dựa vào năng lực và tính khả dụng của từng Server.
+Dựa vào tầng 7 ( Tầng Application )  để điều hướng đường truy cập.</h4></li>
 <li><h4>Network Load Balancing</h4></li>
 <li><h4>Cloud Load Balancing</h4></li>
 </ol>
