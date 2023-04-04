@@ -90,8 +90,8 @@ UDP (User Datagram Protocol) được định nghĩa là giao thức dữ liệu
 <li><h4>Mô hình OSI</h4>
 
 
-<p>
-<tbody>
+<table border="3">
+	<tbody>
 		<tr>
 			<td>
 			<p style="text-align:justify"><strong>Tầng</strong></p>
@@ -187,9 +187,9 @@ UDP (User Datagram Protocol) được định nghĩa là giao thức dữ liệu
 			</td>
 		</tr>
 	</tbody>
+</table>
 
 
-</p>
 </li>
 
 
