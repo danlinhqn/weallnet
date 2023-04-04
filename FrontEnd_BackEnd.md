@@ -20,8 +20,7 @@ Global server load balancing (cân bằng tải máy chủ toàn cầu – GSLB)
 
 </div>
 
-
-<li><h4>Server Load Balancing</h4></li>
+<hr></hr>
 
 
 
