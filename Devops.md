@@ -162,6 +162,24 @@ Mỗi pods giống như một logic machine riêng biệt (có IP, hostname, ti�
 <td><p style="text-align:justify">Chuyển đổi cú pháp dữ liệu để đáp ứng yêu cầu truyền thông của các ứng dụng</p></td>
 <td><p style="text-align:justify">Giao thứcBiến đổi mã</p></td>
 </tr>
+	
+<tr>
+<td><p style="text-align:justify"><strong>5 - Session</strong></p></td>
+<td><p style="text-align:justify">Quản lý các cuộc liên lạc giữa các thực thể bằng cách thiết lập, duy trì, đồng bộ hóa và hủy bỏ các phiên truyền thông giữa các ứng dụng</p></td>
+<td><p style="text-align:justify">Giao thức phiên</p></td>
+</tr>
+	
+<tr>
+<td><p style="text-align:justify"><strong>4 – Transpost</strong></p></td>
+<td><p style="text-align:justify">Vận chuyển thông tin giữa các máy chủ (End to End). Kiểm soát lỗi và luồng dữ liệu</p></td>
+<td><p style="text-align:justify">Giao thức Giao vận</p></td>
+</tr>
+	
+<tr>
+<td><p style="text-align:justify"><strong>3 – Network</strong></p></td>
+<td><p style="text-align:justify">Thực hiện chọn đường và đảm bảo trao đổi thông tin trong liên mạng với công nghệ chuyển mạch thích hợp.</p></td>
+<td><p style="text-align:justify">Giao thức mạng</p></td>
+</tr>
 
 
 </tbody>
