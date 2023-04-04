@@ -1,211 +1,4 @@
-<readme-toc data-catalyst="">
-
-    <div data-target="readme-toc.content" class="Box mt-3 position-relative">
-      
-  <div class="Box-header js-blob-header blob-header js-sticky js-position-sticky top-0 p-2 d-flex flex-shrink-0 flex-md-row flex-items-center is-stuck" style="position: sticky; z-index: 1; top: 0px !important;" data-original-top="0px">
-
-      <details data-target="readme-toc.trigger" data-menu-hydro-click="{&quot;event_type&quot;:&quot;repository_toc_menu.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;trigger&quot;,&quot;repository_id&quot;:357503319,&quot;originating_url&quot;:&quot;https://github.com/tebby455/My-Report/blob/main/LinuxSystemFundamentals.md&quot;,&quot;user_id&quot;:128892565}}" data-menu-hydro-click-hmac="bcd3a83980c4157685b8603a000fff67a2e61ab7a5371d38f3f709331120bec8" class="dropdown details-reset details-overlay">
-  <summary class="btn btn-octicon m-0 mr-2 p-2" aria-haspopup="menu" aria-label="Table of Contents" role="button">
-    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-list-unordered">
-    <path d="M5.75 2.5h8.5a.75.75 0 0 1 0 1.5h-8.5a.75.75 0 0 1 0-1.5Zm0 5h8.5a.75.75 0 0 1 0 1.5h-8.5a.75.75 0 0 1 0-1.5Zm0 5h8.5a.75.75 0 0 1 0 1.5h-8.5a.75.75 0 0 1 0-1.5ZM2 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-6a1 1 0 1 1-2 0 1 1 0 0 1 2 0ZM2 4a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path>
-</svg>
-  </summary>
-
-
-  <details-menu class="SelectMenu" role="menu" data-focus-trap="active"><span class="sentinel" tabindex="0" aria-hidden="true"></span>
-    <div class="SelectMenu-modal rounded-3 mt-1" style="max-height:340px;">
-
-        <div class="SelectMenu-filter">
-          <input class="SelectMenu-input form-control js-filterable-field" id="toc-filter-field" type="text" autocomplete="off" spellcheck="false" autofocus="" placeholder="Filter headings" aria-label="Filter headings">
-        </div>
-
-      <div class="SelectMenu-list SelectMenu-list--borderless p-2" style="overscroll-behavior: contain;" data-filterable-for="toc-filter-field" data-filterable-type="substring">
-          <a role="menuitem" class="filter-item SelectMenu-item ws-normal wb-break-word line-clamp-2 py-1 text-emphasized" style="-webkit-box-orient: vertical; padding-left: 12px; background-color: var(--color-accent-emphasis);" data-action="click:readme-toc#blur" data-targets="readme-toc.entries" data-hydro-click="{&quot;event_type&quot;:&quot;repository_toc_menu.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;entry&quot;,&quot;repository_id&quot;:357503319,&quot;originating_url&quot;:&quot;https://github.com/tebby455/My-Report/blob/main/LinuxSystemFundamentals.md&quot;,&quot;user_id&quot;:128892565}}" data-hydro-click-hmac="982c9a308604960df7d37b7151476cc082e11cdacb1bb65404fd6264c7d4d92f" href="#linux-system-fundamentals" aria-current="page">Linux System Fundamentals</a>
-          <a role="menuitem" class="filter-item SelectMenu-item ws-normal wb-break-word line-clamp-2 py-1 " style="-webkit-box-orient: vertical; padding-left: 24px;" data-action="click:readme-toc#blur" data-targets="readme-toc.entries" data-hydro-click="{&quot;event_type&quot;:&quot;repository_toc_menu.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;entry&quot;,&quot;repository_id&quot;:357503319,&quot;originating_url&quot;:&quot;https://github.com/tebby455/My-Report/blob/main/LinuxSystemFundamentals.md&quot;,&quot;user_id&quot;:128892565}}" data-hydro-click-hmac="982c9a308604960df7d37b7151476cc082e11cdacb1bb65404fd6264c7d4d92f" href="#outline">Outline</a>
-          <a role="menuitem" class="filter-item SelectMenu-item ws-normal wb-break-word line-clamp-2 py-1 " style="-webkit-box-orient: vertical; padding-left: 48px;" data-action="click:readme-toc#blur" data-targets="readme-toc.entries" data-hydro-click="{&quot;event_type&quot;:&quot;repository_toc_menu.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;entry&quot;,&quot;repository_id&quot;:357503319,&quot;originating_url&quot;:&quot;https://github.com/tebby455/My-Report/blob/main/LinuxSystemFundamentals.md&quot;,&quot;user_id&quot;:128892565}}" data-hydro-click-hmac="982c9a308604960df7d37b7151476cc082e11cdacb1bb65404fd6264c7d4d92f" href="#i-linux-session">I. Linux Session</a>
-          <a role="menuitem" class="filter-item SelectMenu-item ws-normal wb-break-word line-clamp-2 py-1 " style="-webkit-box-orient: vertical; padding-left: 36px;" data-action="click:readme-toc#blur" data-targets="readme-toc.entries" data-hydro-click="{&quot;event_type&quot;:&quot;repository_toc_menu.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;entry&quot;,&quot;repository_id&quot;:357503319,&quot;originating_url&quot;:&quot;https://github.com/tebby455/My-Report/blob/main/LinuxSystemFundamentals.md&quot;,&quot;user_id&quot;:128892565}}" data-hydro-click-hmac="982c9a308604960df7d37b7151476cc082e11cdacb1bb65404fd6264c7d4d92f" href="#ii-process-control">II. Process Control</a>
-          <a role="menuitem" class="filter-item SelectMenu-item ws-normal wb-break-word line-clamp-2 py-1 " style="-webkit-box-orient: vertical; padding-left: 36px;" data-action="click:readme-toc#blur" data-targets="readme-toc.entries" data-hydro-click="{&quot;event_type&quot;:&quot;repository_toc_menu.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;entry&quot;,&quot;repository_id&quot;:357503319,&quot;originating_url&quot;:&quot;https://github.com/tebby455/My-Report/blob/main/LinuxSystemFundamentals.md&quot;,&quot;user_id&quot;:128892565}}" data-hydro-click-hmac="982c9a308604960df7d37b7151476cc082e11cdacb1bb65404fd6264c7d4d92f" href="#iii-basic-command-line-with-linux">III. Basic command line with Linux</a>
-          <a role="menuitem" class="filter-item SelectMenu-item ws-normal wb-break-word line-clamp-2 py-1 " style="-webkit-box-orient: vertical; padding-left: 36px;" data-action="click:readme-toc#blur" data-targets="readme-toc.entries" data-hydro-click="{&quot;event_type&quot;:&quot;repository_toc_menu.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;entry&quot;,&quot;repository_id&quot;:357503319,&quot;originating_url&quot;:&quot;https://github.com/tebby455/My-Report/blob/main/LinuxSystemFundamentals.md&quot;,&quot;user_id&quot;:128892565}}" data-hydro-click-hmac="982c9a308604960df7d37b7151476cc082e11cdacb1bb65404fd6264c7d4d92f" href="#iv-text-editing-tools-">IV. Text Editing Tools </a>
-          <a role="menuitem" class="filter-item SelectMenu-item ws-normal wb-break-word line-clamp-2 py-1 " style="-webkit-box-orient: vertical; padding-left: 36px;" data-action="click:readme-toc#blur" data-targets="readme-toc.entries" data-hydro-click="{&quot;event_type&quot;:&quot;repository_toc_menu.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;entry&quot;,&quot;repository_id&quot;:357503319,&quot;originating_url&quot;:&quot;https://github.com/tebby455/My-Report/blob/main/LinuxSystemFundamentals.md&quot;,&quot;user_id&quot;:128892565}}" data-hydro-click-hmac="982c9a308604960df7d37b7151476cc082e11cdacb1bb65404fd6264c7d4d92f" href="#v-io-redirection-">V. I/O Redirection </a>
-          <a role="menuitem" class="filter-item SelectMenu-item ws-normal wb-break-word line-clamp-2 py-1 " style="-webkit-box-orient: vertical; padding-left: 36px;" data-action="click:readme-toc#blur" data-targets="readme-toc.entries" data-hydro-click="{&quot;event_type&quot;:&quot;repository_toc_menu.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;entry&quot;,&quot;repository_id&quot;:357503319,&quot;originating_url&quot;:&quot;https://github.com/tebby455/My-Report/blob/main/LinuxSystemFundamentals.md&quot;,&quot;user_id&quot;:128892565}}" data-hydro-click-hmac="982c9a308604960df7d37b7151476cc082e11cdacb1bb65404fd6264c7d4d92f" href="#vi-filters">VI. Filters</a>
-          <a role="menuitem" class="filter-item SelectMenu-item ws-normal wb-break-word line-clamp-2 py-1 " style="-webkit-box-orient: vertical; padding-left: 36px;" data-action="click:readme-toc#blur" data-targets="readme-toc.entries" data-hydro-click="{&quot;event_type&quot;:&quot;repository_toc_menu.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;entry&quot;,&quot;repository_id&quot;:357503319,&quot;originating_url&quot;:&quot;https://github.com/tebby455/My-Report/blob/main/LinuxSystemFundamentals.md&quot;,&quot;user_id&quot;:128892565}}" data-hydro-click-hmac="982c9a308604960df7d37b7151476cc082e11cdacb1bb65404fd6264c7d4d92f" href="#vii-file-links">VII. File Links</a>
-          <a role="menuitem" class="filter-item SelectMenu-item ws-normal wb-break-word line-clamp-2 py-1 " style="-webkit-box-orient: vertical; padding-left: 36px;" data-action="click:readme-toc#blur" data-targets="readme-toc.entries" data-hydro-click="{&quot;event_type&quot;:&quot;repository_toc_menu.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;entry&quot;,&quot;repository_id&quot;:357503319,&quot;originating_url&quot;:&quot;https://github.com/tebby455/My-Report/blob/main/LinuxSystemFundamentals.md&quot;,&quot;user_id&quot;:128892565}}" data-hydro-click-hmac="982c9a308604960df7d37b7151476cc082e11cdacb1bb65404fd6264c7d4d92f" href="#viii-basic-linux-tools-">VIII. Basic Linux Tools </a>
-          <a role="menuitem" class="filter-item SelectMenu-item ws-normal wb-break-word line-clamp-2 py-1 " style="-webkit-box-orient: vertical; padding-left: 24px;" data-action="click:readme-toc#blur" data-targets="readme-toc.entries" data-hydro-click="{&quot;event_type&quot;:&quot;repository_toc_menu.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;entry&quot;,&quot;repository_id&quot;:357503319,&quot;originating_url&quot;:&quot;https://github.com/tebby455/My-Report/blob/main/LinuxSystemFundamentals.md&quot;,&quot;user_id&quot;:128892565}}" data-hydro-click-hmac="982c9a308604960df7d37b7151476cc082e11cdacb1bb65404fd6264c7d4d92f" href="#the-end">The End</a>
-          <a role="menuitem" class="filter-item SelectMenu-item ws-normal wb-break-word line-clamp-2 py-1 " style="-webkit-box-orient: vertical; padding-left: 36px;" data-action="click:readme-toc#blur" data-targets="readme-toc.entries" data-hydro-click="{&quot;event_type&quot;:&quot;repository_toc_menu.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;entry&quot;,&quot;repository_id&quot;:357503319,&quot;originating_url&quot;:&quot;https://github.com/tebby455/My-Report/blob/main/LinuxSystemFundamentals.md&quot;,&quot;user_id&quot;:128892565}}" data-hydro-click-hmac="982c9a308604960df7d37b7151476cc082e11cdacb1bb65404fd6264c7d4d92f" href="#references">References</a>
-      </div>
-    </div>
-  <span class="sentinel" tabindex="0" aria-hidden="true"></span></details-menu>
-</details>
-
-
-  <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1">
-
-      694 lines (414 sloc)
-      <span class="file-info-divider"></span>
-    24.1 KB
-  </div>
-
-  <div class="d-flex py-1 py-md-0 flex-auto flex-order-1 flex-md-order-2 flex-sm-grow-0 flex-justify-between hide-sm hide-md">
-        <div class="BtnGroup">
-      <a href="/tebby455/My-Report/blob/main/LinuxSystemFundamentals.md?plain=1" data-permalink-href="/tebby455/My-Report/blob/25a025f624e8f0d770a590ae89f4f686675e239d/LinuxSystemFundamentals.md?plain=1" aria-label="Display the source blob" data-view-component="true" class="source tooltipped tooltipped-s js-permalink-replaceable-link btn-sm btn BtnGroup-item">    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-code">
-    <path d="m11.28 3.22 4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.749.749 0 0 1-1.275-.326.749.749 0 0 1 .215-.734L13.94 8l-3.72-3.72a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215Zm-6.56 0a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042L2.06 8l3.72 3.72a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L.47 8.53a.75.75 0 0 1 0-1.06Z"></path>
-</svg>
-</a>      <a href="/tebby455/My-Report/blob/main/LinuxSystemFundamentals.md" data-permalink-href="/tebby455/My-Report/blob/25a025f624e8f0d770a590ae89f4f686675e239d/LinuxSystemFundamentals.md" aria-label="Display the rendered blob" data-view-component="true" class="rendered tooltipped tooltipped-s selected js-permalink-replaceable-link btn-sm btn BtnGroup-item">    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-file">
-    <path d="M2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5Zm6.75.062V4.25c0 .138.112.25.25.25h2.688l-.011-.013-2.914-2.914-.013-.011Z"></path>
-</svg>
-</a>  </div>
-
-
-    <div class="BtnGroup">
-        <a data-permalink-href="/tebby455/My-Report/raw/25a025f624e8f0d770a590ae89f4f686675e239d/LinuxSystemFundamentals.md" href="/tebby455/My-Report/raw/main/LinuxSystemFundamentals.md" id="raw-url" group_item="true" data-view-component="true" class="js-permalink-replaceable-link Button--secondary Button--small Button">    <span class="Button-content">
-      <span class="Button-label">Raw</span>
-    </span>
-</a>  
-          <a data-permalink-href="/tebby455/My-Report/blame/25a025f624e8f0d770a590ae89f4f686675e239d/LinuxSystemFundamentals.md" href="/tebby455/My-Report/blame/main/LinuxSystemFundamentals.md" group_item="true" data-hotkey="b" data-view-component="true" class="js-update-url-with-hash js-permalink-replaceable-link Button--secondary Button--small Button">    <span class="Button-content">
-      <span class="Button-label">Blame</span>
-    </span>
-</a>  
-    </div>
-
-    <div class="d-flex">
-        
-<div class="ml-1">
-  <!-- '"` --><!-- </textarea></xmp> --><form class="BtnGroup-parent js-update-url-with-hash " data-turbo="false" action="/tebby455/My-Report/edit/main/LinuxSystemFundamentals.md" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="7jUVAZEUia4KicPxwJYwyFurjWUk3h1ptd_fIUp7zHejXbft4AGL70k-zhn--6D41SKqfyRGhk18lXdNYJ-4gw" autocomplete="off">
-      <button title="Fork this repository and edit the file" data-hotkey="e" data-disable-with="" type="submit" data-view-component="true" class="btn-sm BtnGroup-item btn">    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-pencil">
-    <path d="M11.013 1.427a1.75 1.75 0 0 1 2.474 0l1.086 1.086a1.75 1.75 0 0 1 0 2.474l-8.61 8.61c-.21.21-.47.364-.756.445l-3.251.93a.75.75 0 0 1-.927-.928l.929-3.25c.081-.286.235-.547.445-.758l8.61-8.61Zm.176 4.823L9.75 4.81l-6.286 6.287a.253.253 0 0 0-.064.108l-.558 1.953 1.953-.558a.253.253 0 0 0 .108-.064Zm1.238-3.763a.25.25 0 0 0-.354 0L10.811 3.75l1.439 1.44 1.263-1.263a.25.25 0 0 0 0-.354Z"></path>
-</svg>
-</button></form>
-  <details class="details-reset details-overlay select-menu BtnGroup-parent d-inline-block position-relative">
-      <summary data-disable-invalid="" data-disable-with="" data-dropdown-tracking="{&quot;type&quot;:&quot;blob_edit_dropdown.more_options_click&quot;,&quot;context&quot;:{&quot;repository_id&quot;:357503319,&quot;actor_id&quot;:128892565,&quot;github_dev_enabled&quot;:true,&quot;edit_enabled&quot;:true,&quot;small_screen&quot;:false}}" aria-label="Select additional options" data-view-component="true" class="js-blob-dropdown-click select-menu-button btn-sm btn BtnGroup-item float-none px-2">
-</summary>    <div class="SelectMenu right-0">
-      <div class="SelectMenu-modal width-full">
-        <div class="SelectMenu-list SelectMenu-list--borderless py-2">
-          <!-- '"` --><!-- </textarea></xmp> --><form class="SelectMenu-item js-update-url-with-hash " data-turbo="false" action="/tebby455/My-Report/edit/main/LinuxSystemFundamentals.md" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="UZuGHQeVPXPUkj6oAX5KvtlBmhdOq-wLjMWAqvkVv0Ac8yTxdoA_MpclM0A_E9qOV8i9DU4zdy9FjyjG0_HLtA" autocomplete="off">
-              <button title="Fork this repository and edit the file" type="submit" data-view-component="true" class="btn-invisible btn width-full d-flex flex-justify-between color-fg-default text-normal p-0">    <div class="mr-5">Edit this file</div>
-              <div class="color-fg-muted">E</div>
-</button></form>
-            <a aria-label="Open this file in github.dev" data-dropdown-tracking="{&quot;type&quot;:&quot;blob_edit_dropdown.dev_link_click&quot;,&quot;context&quot;:{&quot;repository_id&quot;:357503319,&quot;actor_id&quot;:128892565,&quot;edit_enabled&quot;:true,&quot;small_screen&quot;:false}}" href="https://github.dev/" data-view-component="true" class="SelectMenu-item js-github-dev-shortcut js-blob-dropdown-click width-full d-flex flex-justify-between color-fg-default f5 text-normal">
-              <div class="mr-5 no-wrap">Open in github.dev</div>
-              <div class="color-fg-muted">.</div>
-</a>
-            <a data-platforms="windows,mac" aria-label="Open this file in GitHub Desktop" href="https://desktop.github.com" data-view-component="true" class="SelectMenu-item no-wrap js-remove-unless-platform width-full text-normal color-fg-default f5">
-              Open in GitHub Desktop
-</a>        </div>
-      </div>
-    </div>
-  </details>
-</div>
-
-
-        
-<div>
-  <remote-clipboard-copy class="d-inline-block btn-octicon" style="height: 26px" data-src="/tebby455/My-Report/raw/25a025f624e8f0d770a590ae89f4f686675e239d/LinuxSystemFundamentals.md" data-action="click:remote-clipboard-copy#remoteCopy" data-state-timeout="2000" data-catalyst="">
-  
-
-  <span data-target="remote-clipboard-copy.idle">      <span class="tooltipped tooltipped-sw cursor-pointer" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;COPY_RAW_CONTENTS_BUTTON&quot;,&quot;repository_id&quot;:357503319,&quot;originating_url&quot;:&quot;https://github.com/tebby455/My-Report/blob/main/LinuxSystemFundamentals.md&quot;,&quot;user_id&quot;:128892565}}" data-hydro-click-hmac="0e5a0058f493457b01a7cd56af2932d1ec8c38318f8b00333a4a20a575986c3d" aria-label="Copy raw contents">
-        <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy">
-    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
-</svg>
-</span></span>
-  <span data-target="remote-clipboard-copy.fetching" hidden="">      <svg style="box-sizing: content-box; color: var(--color-icon-primary);" width="16" height="16" viewBox="0 0 16 16" fill="none" data-view-component="true" class="anim-rotate">
-  <circle cx="8" cy="8" r="7" stroke="currentColor" stroke-opacity="0.25" stroke-width="2" vector-effect="non-scaling-stroke"></circle>
-  <path d="M15 8a7.002 7.002 0 00-7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" vector-effect="non-scaling-stroke"></path>
-</svg>
-</span>
-  <span data-target="remote-clipboard-copy.success" hidden="">      <span class="tooltipped tooltipped-sw" aria-label="Copied!">
-        <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check color-fg-success">
-    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
-</svg>
-      </span>
-</span>
-  <span data-target="remote-clipboard-copy.error" hidden="">      <span class="tooltipped tooltipped-sw" aria-label="Something went wrong. Try again.">
-        <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-alert color-fg-attention">
-    <path d="M6.457 1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53 3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path>
-</svg>
-      </span>
-</span>
-</remote-clipboard-copy></div>
-
-
-          <!-- '"` --><!-- </textarea></xmp> --><form class="inline-form" data-turbo="false" action="/tebby455/My-Report/delete/main/LinuxSystemFundamentals.md" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="fnOWlyrSzs4XLxAffVA65nM3S8nxOHiCiYoMKQ4zk_-KSIY02G-81Qd3pbFBlRPfJ-feKktVMxg_Eo6Fqp9_dg">
-            <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-sw" type="submit" aria-label="Fork this repository and delete the file" data-disable-with="">
-              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-trash">
-    <path d="M11 1.75V3h2.25a.75.75 0 0 1 0 1.5H2.75a.75.75 0 0 1 0-1.5H5V1.75C5 .784 5.784 0 6.75 0h2.5C10.216 0 11 .784 11 1.75ZM4.496 6.675l.66 6.6a.25.25 0 0 0 .249.225h5.19a.25.25 0 0 0 .249-.225l.66-6.6a.75.75 0 0 1 1.492.149l-.66 6.6A1.748 1.748 0 0 1 10.595 15h-5.19a1.75 1.75 0 0 1-1.741-1.575l-.66-6.6a.75.75 0 1 1 1.492-.15ZM6.5 1.75V3h3V1.75a.25.25 0 0 0-.25-.25h-2.5a.25.25 0 0 0-.25.25Z"></path>
-</svg>
-            </button>
-</form>    </div>
-  </div>
-
-    <div class="d-flex hide-lg hide-xl flex-order-2 flex-grow-0">
-      <details class="dropdown details-reset details-overlay d-inline-block">
-        <summary class="js-blob-dropdown-click btn-octicon p-2" aria-haspopup="true" aria-label="possible actions" data-dropdown-tracking="{&quot;type&quot;:&quot;blob_edit_dropdown.more_options_click&quot;,&quot;context&quot;:{&quot;repository_id&quot;:357503319,&quot;actor_id&quot;:128892565,&quot;github_dev_enabled&quot;:true,&quot;edit_enabled&quot;:true,&quot;small_screen&quot;:true}}">
-          <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-kebab-horizontal">
-    <path d="M8 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3ZM1.5 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Zm13 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"></path>
-</svg>
-        </summary>
-
-        <ul class="dropdown-menu dropdown-menu-sw" style="width: 175px">
-            <li>
-                <a class="dropdown-item tooltipped tooltipped-sw js-remove-unless-platform" data-platforms="windows,mac" href="https://desktop.github.com">
-                  Open with Desktop
-                </a>
-            </li>
-          <li>
-            <a class="dropdown-item" href="/tebby455/My-Report/raw/main/LinuxSystemFundamentals.md">
-              View raw
-            </a>
-          </li>
-            <li>
-              <remote-clipboard-copy class="dropdown-item" data-src="/tebby455/My-Report/raw/main/LinuxSystemFundamentals.md" data-action="click:remote-clipboard-copy#remoteCopy" data-state-timeout="2000" data-catalyst="">
-  
-
-  <span data-target="remote-clipboard-copy.idle">                  <span class="cursor-pointer" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;COPY_RAW_CONTENTS_BUTTON&quot;,&quot;repository_id&quot;:357503319,&quot;originating_url&quot;:&quot;https://github.com/tebby455/My-Report/blob/main/LinuxSystemFundamentals.md&quot;,&quot;user_id&quot;:128892565}}" data-hydro-click-hmac="0e5a0058f493457b01a7cd56af2932d1ec8c38318f8b00333a4a20a575986c3d">
-                    Copy raw contents
-</span></span>
-  <span data-target="remote-clipboard-copy.fetching" hidden="">                  Copy raw contents
-                  <span class="d-inline-block position-relative" style="top: 3px">
-                    <svg aria-label="fetching contents…" style="box-sizing: content-box; color: var(--color-icon-primary);" width="16" height="16" viewBox="0 0 16 16" fill="none" data-view-component="true" class="anim-rotate">
-  <circle cx="8" cy="8" r="7" stroke="currentColor" stroke-opacity="0.25" stroke-width="2" vector-effect="non-scaling-stroke"></circle>
-  <path d="M15 8a7.002 7.002 0 00-7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" vector-effect="non-scaling-stroke"></path>
-</svg>
-                  </span>
-</span>
-  <span data-target="remote-clipboard-copy.success" hidden="">                  Copy raw contents
-                  <svg aria-label="Copied!" role="img" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check color-fg-success">
-    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
-</svg>
-</span>
-  <span data-target="remote-clipboard-copy.error" hidden="">                  Copy raw contents
-                  <svg aria-label="Something went wrong. Try again." role="img" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-alert color-fg-attention">
-    <path d="M6.457 1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53 3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path>
-</svg>
-</span>
-</remote-clipboard-copy>            </li>
-            <li>
-              <a class="dropdown-item" href="/tebby455/My-Report/blame/main/LinuxSystemFundamentals.md">
-                View blame
-              </a>
-            </li>
-
-              <li class="dropdown-divider" role="none"></li>
-              <li>
-                <a class="dropdown-item" href="/tebby455/My-Report/edit/main/LinuxSystemFundamentals.md">Edit file</a>
-              </li>
-                <li>
-                  <a data-dropdown-tracking="{&quot;type&quot;:&quot;blob_edit_dropdown.dev_link_click&quot;,&quot;context&quot;:{&quot;repository_id&quot;:357503319,&quot;actor_id&quot;:128892565,&quot;edit_enabled&quot;:true,&quot;small_screen&quot;:true}}" href="https://github.dev/" data-view-component="true" class="dropdown-item js-github-dev-shortcut js-blob-dropdown-click">Open with github.dev</a>
-                </li>
-              <li>
-                <a class="dropdown-item menu-item-danger" href="/tebby455/My-Report/delete/main/LinuxSystemFundamentals.md">Delete file</a>
-              </li>
-        </ul>
-      </details>
-    </div>
-</div>
-
-
-        <div id="readme" class="Box-body readme blob js-code-block-container p-5 p-xl-6 gist-border-0">
-    <article class="markdown-body entry-content container-lg" itemprop="text"><p dir="auto"><a target="_blank" rel="noopener noreferrer" href="/tebby455/My-Report/blob/main/images/linux.png"><img src="/tebby455/My-Report/raw/main/images/linux.png" alt="Linux" style="max-width: 100%;"></a></p>
-<h1 dir="auto"><a id="user-content-linux-system-fundamentals" class="anchor" aria-hidden="true" href="#linux-system-fundamentals"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a>Linux System Fundamentals</h1>
+2.83Z"></path></svg></a>Linux System Fundamentals</h1>
 <p dir="auto"> Nowadays, Linux (an operating system distributed under an open-source license) is becoming popular for providing a platform which developers could intervention to a system, a network server. Almost IT professionals with or no Linux experience they can be approached to. Linux provides a role better than other OS like Organizing, Managing and Operating a server, also services in Information Systems, secure for environment, solutions, ... for personal, organization and enterprise, ... Here is my report for basic and fundamentals in Linux.
 </p>
 <hr>
@@ -1217,3 +1010,49 @@ a. <strong><code>locate</code></strong></p>
     </div>
 
   </readme-toc>
+
+  
+
+  <details class="details-reset details-overlay details-overlay-dark" id="jumpto-line-details-dialog">
+    <summary data-hotkey="l" aria-label="Jump to line" role="button"></summary>
+    <details-dialog class="Box Box--overlay d-flex flex-column anim-fade-in fast linejump overflow-hidden" aria-label="Jump to line" role="dialog" aria-modal="true">
+      <!-- '"` --><!-- </textarea></xmp> --><form class="js-jump-to-line-form Box-body d-flex" data-turbo="false" action="" accept-charset="UTF-8" method="get">
+        <input class="form-control flex-auto mr-3 linejump-input js-jump-to-line-field" type="text" placeholder="Jump to line…" aria-label="Jump to line" autofocus="">
+          <button data-close-dialog="" type="submit" data-view-component="true" class="btn">    Go
+</button>
+</form>    </details-dialog>
+  </details>
+
+
+
+    <div class="pt-3">
+      <details class="details-reset details-overlay details-overlay-dark ">
+                <summary data-view-component="true" class="btn-link" role="button">    Give feedback
+</summary>
+
+  <details-dialog class="Box d-flex flex-column anim-fade-in fast Box--overlay overflow-visible" aria-label="Provide feedback" src="/tebby455/My-Report/repos/code_nav_survey" role="dialog" aria-modal="true">
+    <div class="Box-header">
+      <button class="Box-btn-octicon btn-octicon float-right" type="button" aria-label="Close dialog" data-close-dialog="">
+        <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
+    <path d="M3.72 3.72a.75.75 0 0 1 1.06 0L8 6.94l3.22-3.22a.749.749 0 0 1 1.275.326.749.749 0 0 1-.215.734L9.06 8l3.22 3.22a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L8 9.06l-3.22 3.22a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L6.94 8 3.72 4.78a.75.75 0 0 1 0-1.06Z"></path>
+</svg>
+      </button>
+        <h1 class="Box-title">Provide feedback</h1>
+    </div>
+      <div class="Box-body overflow-auto">
+                  <include-fragment>
+            <svg style="box-sizing: content-box; color: var(--color-icon-primary);" width="32" height="32" viewBox="0 0 16 16" fill="none" data-view-component="true" class="my-3 mx-auto d-block anim-rotate">
+  <circle cx="8" cy="8" r="7" stroke="currentColor" stroke-opacity="0.25" stroke-width="2" vector-effect="non-scaling-stroke"></circle>
+  <path d="M15 8a7.002 7.002 0 00-7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" vector-effect="non-scaling-stroke"></path>
+</svg>
+          </include-fragment>
+
+      </div>
+  </details-dialog>
+</details>
+    </div>
+</div>
+
+  </div>
+
+
