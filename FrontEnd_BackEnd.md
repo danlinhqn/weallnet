@@ -75,7 +75,7 @@ Propeties, tại thư mục này chứa file launchSetting.json, file này sẽ 
 
 <h4>Thư mục thứ 4:</h4>
 <p>
-wwwroot
+wwwroot là thư mục của ứng dụng, và tất cả như các file html, css, image, … đều đặt trong này
 </p>
 
 <hr></hr>
