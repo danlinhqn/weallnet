@@ -11,7 +11,9 @@
    <li><h3><a href="#Section3">Learn about LinkQ
 </a></h3></li>
 </ol>
-<h3>1. Make first project with ASP .Net</h3>
+
+<hr></hr>
+<h3>I. Make first project with ASP .Net</h3>
 <ol>
    <li><h4>Cài </li>
 <div id="user-content-section1" dir="auto">
@@ -20,7 +22,6 @@ Global server load balancing (cân bằng tải máy chủ toàn cầu – GSLB)
 
 </div>
 
-<hr></hr>
 
 
 
