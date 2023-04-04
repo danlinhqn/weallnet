@@ -25,11 +25,11 @@ Chương trình sẽ bắt đầu chạy từ file Program.cs, tại file này c
 
 <p>
 
-Tại thư mục đầu tiên: Connected Services sẽ làm việc khi chúng ta thêm 1 services bên ngoài vào ví dụ như: Cloud Storage with Azure Storage, …
+<h4>Thư mục đầu tiên:</h4> Connected Services sẽ làm việc khi chúng ta thêm 1 services bên ngoài vào ví dụ như: Cloud Storage with Azure Storage, …
 
-Thư mục thứ 2 là: Dependencies
+<h4>Thư mục thứ 2:</h4> Dependencies
 
-Thư mục thứ 3: Propeties, tại thư mục này chứa file launchSetting.json, file này sẽ chứa các profile để chúng ta thực thi ứng dụng ( Chúng ta có thể thấy tại nút play run chương trình màu xanh lá cây như IIS Express => khi kéo xuống chúng ta sẽ thấy Profile ISS Express + Tên Chính của Thư mục Profile chính ). Và cũng có thể setup đa mội trường tại đây.
+<h4>Thư mục thứ 3</h4>: Propeties, tại thư mục này chứa file launchSetting.json, file này sẽ chứa các profile để chúng ta thực thi ứng dụng ( Chúng ta có thể thấy tại nút play run chương trình màu xanh lá cây như IIS Express => khi kéo xuống chúng ta sẽ thấy Profile ISS Express + Tên Chính của Thư mục Profile chính ). Và cũng có thể setup đa mội trường tại đây.
 
 </p>
 
