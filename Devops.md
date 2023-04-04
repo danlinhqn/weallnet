@@ -149,6 +149,23 @@ Mỗi pods giống như một logic machine riêng biệt (có IP, hostname, ti�
 <td><p style="text-align:justify"><strong>Chức năng chủ yếu</strong></p></td>
 <td><p style="text-align:justify"><strong>Giao thức</strong></p></td>
 </tr>
+
+
+<tr>
+			<td>
+			<p style="text-align:justify"><strong>7 – Application</strong></p>
+			</td>
+			<td>
+			<p style="text-align:justify">Giao tiếp người và môi trường mạng</p>
+			</td>
+			<td>
+			<p style="text-align:justify">Ứng dụng</p>
+			</td>
+		</tr>
+
+
+
+
 </tbody>
 </table>
 
