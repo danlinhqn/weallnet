@@ -10,10 +10,10 @@ Description: Load Balancer is the way for efficient distribution of traffic on m
 <ol>
    
    <li><a href="#Section1">Global server load balancing</a></li>
-   <li>Server Load Balancing</li>
-   <li>Network Load Balancing</li>
-   <li>Network Load Balancing</li>
-   <li>Cloud Load Balancing</li>
+   <li><a href="#Section2">Server Load Balancing</a></li>
+   <li><a href="#Section3">Network Load Balancing</a></li>
+   <li><a href="#Section4">Network Load Balancing</a></li>
+   <li><a href="#Section5">Cloud Load Balancing</a></li>
 </ol>
 
 
@@ -32,9 +32,14 @@ Global server load balancing (cân bằng tải máy chủ toàn cầu – GSLB)
 </div>
 
 
-<li><h4>Mục tiêu phân chia khối lượng công việc ra nhiều máy chủ
-Dựa vào năng lực và tính khả dụng của từng Server.
-Dựa vào tầng 7 ( Tầng Application )  để điều hướng đường truy cập.</h4></li>
+<li><h4>Server Load Balancing</h4></li>
+<div id="user-content-section2" dir="auto">
+
+Global server load balancing (cân bằng tải máy chủ toàn cầu – GSLB) có thể mở rộng khả năng của một trong hai loại trên nhiều trung tâm dữ liệu để có thể phân phối lưu lượng lớn một cách hiệu quả.
+
+</div>
+
+
 <li><h4>Network Load Balancing</h4></li>
 <li><h4>Cloud Load Balancing</h4></li>
 </ol>
