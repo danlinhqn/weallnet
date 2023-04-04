@@ -181,6 +181,20 @@ Mỗi pods giống như một logic machine riêng biệt (có IP, hostname, ti�
 <td><p style="text-align:justify">Giao thức mạng</p></td>
 </tr>
 
+	
+<tr>
+<td><p style="text-align:justify"><strong>2 – Data Link</strong></p></td>
+<td><p style="text-align:justify">Tạo/gỡ bỏ khung thông tin (Frames), kiểm soát luồng và kiểm soát lỗi.</p></td>
+<td><p style="text-align:justify">Thủ tục kiểm soát</p></td>
+</tr>
+	
+	
+<tr>
+<td><p style="text-align:justify"><strong>1 - Physical</strong></p></td>
+<td><p style="text-align:justify">Đảm bảo các yêu cầu truyền/nhận các chuỗi bit qua các phương tiện vật lý.</p></td>
+<td><p style="text-align:justify">Giao diện DTE - DCE</p></td>
+</tr>
+
 
 </tbody>
 </table>
