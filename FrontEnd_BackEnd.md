@@ -1,25 +1,15 @@
 <h1>Learn about Front End and Back End</h1>
 <h2>Outline</h2>
 <ol>
-   
    <li><h3><a href="#Section1">Make first project with ASP .Net
 </a></h3></li>
    <li><h3><a href="#Section2">Learn about file structure and test run
 </a></h3></li>
    <li><h3><a href="#Section3">Learn about LinkQ
 </a></h3></li>
-
-
 </ol>
-
-
-<h3>Purpose of using each type of LoadBalancer</h3>
-
-
-
-
+<h3>1. Make first project with ASP .Net</h3>
 <ol>
-   
    <li><h4>Global server load balancing</li>
 <div id="user-content-section1" dir="auto">
 
@@ -59,54 +49,6 @@ Trong hạ tầng cloud, sẽ có nhiều sự lựa chọn cho việc cân bằ
 </div>
 
 </ol>
-
-
-<h3>Information learn more</h3>
-
-
-<ol>
-
-
-
-
-<li><h4>Cổng TCP</h4></li>
-
-
-<li><h4>Cổng UDP</h4></li>
-
-
-<li><h4>Mô hình OSI là gì</h4></li>
-
-
-<li><h4>HTTP, HTTPS, SSL ( TLS ) -> Chứng chỉ bảo mật</h4></li>
-
-
-<li><h4>Kiến ​​trúc Client-server</h4></li>
-
-
-<li><h4>Congestion Control </h4></li>
-
-
-<li><h4>Pods là gì</h4></li>
-
-
-<li><h4>Giao thức truyền tải file đơn giản (TFTP)</h4></li>
-
-
-<li><h4>Giao thức truyền tin thời gian thực (RTSP)</h4></li>
-
-
-<li><h4>Giao thức liên mạng đơn giản (SNP)</h4></li>
-
-
-<li><h4>Hệ thống phân giải tên miền (DNS)</h4></li>
-
-
-
-
-</ol>
-
-
 
 
 
