@@ -15,7 +15,8 @@
 <hr></hr>
 <h3>I. Make first project with ASP .Net</h3>
 <ol>
-   <li><h4>Cài </li>
+   <li><h4>Learn about file structure and test run
+</li>
 <div id="user-content-section1" dir="auto">
 
 Global server load balancing (cân bằng tải máy chủ toàn cầu – GSLB) có thể mở rộng khả năng của một trong hai loại trên nhiều trung tâm dữ liệu để có thể phân phối lưu lượng lớn một cách hiệu quả.
