@@ -2,11 +2,14 @@
 <h2>Outline</h2>
 <ol>
    
-   <li><h3><a href="#Section1">Global server load balancing</a></h3></li>
-   <li><h3><a href="#Section2">Server Load Balancing</a></h3></li>
-   <li><h3><a href="#Section3">Network Load Balancing</a></h3></li>
-   <li><h3><a href="#Section4">Network Load Balancing</a></h3></li>
-   <li><h3><a href="#Section5">Cloud Load Balancing</a></h3></li>
+   <li><h3><a href="#Section1">Make first project with ASP .Net
+</a></h3></li>
+   <li><h3><a href="#Section2">Learn about file structure and test run
+</a></h3></li>
+   <li><h3><a href="#Section3">Learn about LinkQ
+</a></h3></li>
+
+
 </ol>
 
 
