@@ -2,9 +2,8 @@
 <p>
 Description: Load Balancer is the way for efficient distribution of traffic on multiple servers, a Load Balancer as like "traffic cop" stay front of server and routing, can control requests of client on all server for the most speed and performance and ensure that no server is overworked.
 </p>
-
-
-<h3>How many types of LoadBalancer are there?</h3>
+ 
+<h3>How many types of LoadBalancer are there ?</h3>
 
 
 <ol>
@@ -41,7 +40,27 @@ Global server load balancing (cân bằng tải máy chủ toàn cầu – GSLB)
 
 
 <li><h4>Network Load Balancing</h4></li>
+<div id="user-content-section3" dir="auto">
+
+Sẽ phân chia các lượng truy cập giữa các ip, switch, router
+Dùng ở tầng 4 (  Transpost ), nâng cao tính ổn định, Điều đó có nghĩa là chúng có thể đưa ra các quyết định định tuyến dựa trên các cổng TCP hoặc UDP mà các gói sử dụng cùng với địa chỉ IP nguồn và đích của chúng.
+
+</div>
+<li><h4>Container Load Balancing</h4></li>
+<div id="user-content-section4" dir="auto">
+
+Container Load Balancing cung cấp các phiên bản ảo hóa, riêng biệt. 
+Phổ biến nhất hiện nay là hệ thống Kubernetes orchestration, 
+hệ thống này có thể phân chia load giữa các container pods với nhau để giúp nâng cao tính sẵn sàng.
+
+</div>
 <li><h4>Cloud Load Balancing</h4></li>
+<div id="user-content-section5" dir="auto">
+
+Trong hạ tầng cloud, sẽ có nhiều sự lựa chọn cho việc cân bằng tải của mình, cũng có bao gồm cả: Server Load Balancing, Network Load Balancing
+
+</div>
+
 </ol>
 
 
