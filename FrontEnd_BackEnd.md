@@ -29,11 +29,11 @@ Tại thư mục đầu tiên là Connected Services sẽ làm việc khi chúng
 
 Thư mục thứ 2 là: Dependencies
 
-Thư mục : Propeties, thư mục chứa launchSetting.json, file này sẽ chứa các profile để chúng ta thực thi ứng dụng ( Chúng ta có thể thấy tại nút play run chương trình màu xanh lá cây như IIS Express => khi kéo xuống chúng ta sẽ thấy các Profile )
+Thư mục thứ 3: Propeties, tại thư mục này chứa file launchSetting.json, file này sẽ chứa các profile để chúng ta thực thi ứng dụng ( Chúng ta có thể thấy tại nút play run chương trình màu xanh lá cây như IIS Express => khi kéo xuống chúng ta sẽ thấy các Profile )
 
 </p>
 
-<pre>
+<pre style=”font-size:15”>
 {
   "iisSettings": {
     "windowsAuthentication": false,
