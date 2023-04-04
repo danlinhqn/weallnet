@@ -29,7 +29,7 @@ Tại thư mục đầu tiên là Connected Services sẽ làm việc khi chúng
 
 Thư mục thứ 2 là: Dependencies
 
-Thư mục thứ 3: Propeties, tại thư mục này chứa file launchSetting.json, file này sẽ chứa các profile để chúng ta thực thi ứng dụng ( Chúng ta có thể thấy tại nút play run chương trình màu xanh lá cây như IIS Express => khi kéo xuống chúng ta sẽ thấy các Profile )
+Thư mục thứ 3: Propeties, tại thư mục này chứa file launchSetting.json, file này sẽ chứa các profile để chúng ta thực thi ứng dụng ( Chúng ta có thể thấy tại nút play run chương trình màu xanh lá cây như IIS Express => khi kéo xuống chúng ta sẽ thấy Profile ISS Express + Tên Chính của Thư mục Profile chính )
 
 </p>
 
@@ -46,7 +46,7 @@ Thư mục thứ 3: Propeties, tại thư mục này chứa file launchSetting.j
   },
   "profiles": {
     "IIS Express": {
-      "commandName": "IISExpress",
+      "commandName": "IISExpress", // <h3 style=”color:green”>IIS Express là cách chạy mặc định Visual Studio lựa chọn cho bạn</h3>
       "launchBrowser": true,
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
