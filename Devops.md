@@ -152,32 +152,16 @@ Mỗi pods giống như một logic machine riêng biệt (có IP, hostname, ti�
 
 
 <tr>
-			<td>
-			<p style="text-align:justify"><strong>7 – Application</strong></p>
-			</td>
-			<td>
-			<p style="text-align:justify">Giao tiếp người và môi trường mạng</p>
-			</td>
-			<td>
-			<p style="text-align:justify">Ứng dụng</p>
-			</td>
-		</tr>
-
-
+<td><p style="text-align:justify"><strong>7 – Application</strong></p></td>
+<td><p style="text-align:justify">Giao tiếp người và môi trường mạng</p></td>
+<td><p style="text-align:justify">Ứng dụng</p></td>
+</tr>
+	
 <tr>
-			<td>
-			<p style="text-align:justify"><strong>6 – Presentation</strong></p>
-			</td>
-			<td>
-			<p style="text-align:justify">Chuyển đổi cú pháp dữ liệu để đáp ứng yêu cầu truyền thông của các ứng dụng</p>
-			</td>
-			<td>
-			<p style="text-align:justify">Giao thức</p>
-
-
-			<p style="text-align:justify">Biến đổi mã</p>
-			</td>
-		</tr>
+<td><p style="text-align:justify"><strong>6 – Presentation</strong></p></td>
+<td><p style="text-align:justify">Chuyển đổi cú pháp dữ liệu để đáp ứng yêu cầu truyền thông của các ứng dụng</p></td>
+<td><p style="text-align:justify">Giao thứcBiến đổi mã</p></td>
+</tr>
 
 
 </tbody>
