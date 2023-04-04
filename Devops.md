@@ -72,10 +72,19 @@ Trong hạ tầng cloud, sẽ có nhiều sự lựa chọn cho việc cân bằ
 
 
 
-<li><h4>Cổng TCP</h4></li>
+<li><h4>Cổng TCP</h4>
+<p>TCP (Transmission Control Protocol) là một giao thức mạng dùng trong truyền dữ liệu qua một mạng khác, được nhận xét là khá quan trọng. Một giao thức trong phạm vi mạng bao gồm những quy tắc và thứ tự quản lý quá trình truyền dữ liệu sao cho người dùng trên toàn cầu dù ở đâu, trên nền tảng gì, phần mềm nào đều được phép thao tác theo cùng một phương thức tương tự nhau thì được gọi là TCP.
+ ( Truyển tin có kiểm tra -> Tốc độ thấp )
+( Tin cậy hơn )</p>
+</li>
 
 
-<li><h4>Cổng UDP</h4></li>
+<li><h4>Cổng UDP</h4>
+<p>
+UDP (User Datagram Protocol) được định nghĩa là giao thức dữ liệu người dùng, đây là giao thức giao tiếp thay thế cho giao thức mạng truyền dữ liệu TCP (Transmission Control Protocol), UDP được áp dụng vào việc tùy chỉnh, cài đặt những kết nối có độ trễ thấp và không chịu lỗi giữa các ứng dụng ở môi trường internet.
+ ( Truyền tin không kiểm tra -> Tốc độ cao )
+</p>
+</li>
 
 
 <li><h4>Mô hình OSI là gì</h4></li>
