@@ -24,7 +24,7 @@ Description: Load Balancer is the way for efficient distribution of traffic on m
 
 <ol>
    
-   <li><h4><a href="#Section1">Global server load balancing</a></li>
+   <li><h4>Global server load balancing</li>
 <div id="user-content-section1" dir="auto">
 
 Global server load balancing (cân bằng tải máy chủ toàn cầu – GSLB) có thể mở rộng khả năng của một trong hai loại trên nhiều trung tâm dữ liệu để có thể phân phối lưu lượng lớn một cách hiệu quả.
