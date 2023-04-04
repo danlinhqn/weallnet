@@ -47,7 +47,7 @@ Thư mục thứ 3: Propeties, tại thư mục này chứa file launchSetting.j
   "profiles": {
     "IIS Express": {
       "commandName": "IISExpress", 
-// <h3 style="color:Green;">IIS Express là cách chạy mặc định Visual Studio lựa chọn cho bạn</h3>
+// IIS Express là cách chạy mặc định Visual Studio lựa chọn cho bạn
       "launchBrowser": true,
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
