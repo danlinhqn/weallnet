@@ -102,43 +102,24 @@ UDP (User Datagram Protocol) được định nghĩa là giao thức dữ liệu
 
 <li><h4>Congestion Control </h4></li>
 
-
 <li><h4>Pods là gì</h4>
 <p>
 Pods là thành phần cơ bản nhất trong một hệ thống Kubernetes. 
 Pods nằm trong các woker nodes là nơi chứa các container (một hay nhiều). 
 Mỗi pods giống như một logic machine riêng biệt (có IP, hostname, tiếng trình riêng).
 
-
-
-
 </p>
 </li>
 
-
 <li><h4>Giao thức truyền tải file đơn giản (TFTP)</h4></li>
-
 
 <li><h4>Giao thức truyền tin thời gian thực (RTSP)</h4></li>
 
-
 <li><h4>Giao thức liên mạng đơn giản (SNP)</h4></li>
-
 
 <li><h4>Hệ thống phân giải tên miền (DNS)</h4></li>
 
-
-
-
 </ol>
-
-
-
-<hr></hr>
-<h3>Still Loading ...</h3>
-
-
-
 
 <table border="3">
 <tbody>
@@ -199,4 +180,8 @@ Mỗi pods giống như một logic machine riêng biệt (có IP, hostname, ti�
 </tbody>
 </table>
 
+
+
+<hr></hr>
+<h3>Still Loading ...</h3>
 
