@@ -24,10 +24,10 @@ Description: Load Balancer is the way for efficient distribution of traffic on m
 
 <ol>
    
-   <li><h4><a href="#Section1">Global server load balancing</a></h4></li>
-<li><h4><a href="#Section1">Server Load Balancing</a></h4></li>
-<li><h4><a href="#Section1">Network Load Balancing</a></h4></li>
-<li><h4><a href="#Section1">Cloud Load Balancing</a></h4></li>
+   <li><h4><a href="#Section1">Global server load balancing</a></li>
+<li><h4>Server Load Balancing</h4></li>
+<li><h4>Network Load Balancing</h4></li>
+<li><h4>Cloud Load Balancing</h4></li>
 </ol>
 
 
