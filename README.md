@@ -22,6 +22,19 @@ Description: Load Balancer is the way for efficient distribution of traffic on m
 
 
 
+<ol>
+   
+   <li><h4><a href="#Section1">Global server load balancing</a></h4></li>
+<li><h4><a href="#Section1">Server Load Balancing</a></h4></li>
+<li><h4><a href="#Section1">Network Load Balancing</a></h4></li>
+<li><h4><a href="#Section1">Cloud Load Balancing</a></h4></li>
+</ol>
+
+
+
+
+
+
 <div id="user-content-section1" dir="auto">
 
 Purpose of using each type of LoadBalancer
