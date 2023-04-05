@@ -49,7 +49,7 @@
         đây. Và file này chỉ chạy trên Local, còn khi lên Server chủ yếu sẽ chạy vào các môi của appsetting.
     </p>
     <span style="background-color: gray;">
-        <code>
+        <pre>
     {
     "iisSettings": {
         "windowsAuthentication": false,
@@ -78,7 +78,7 @@
         }
     }
     }
-    </code>
+    </pre>
     </span>
     <h4>Thư mục thứ 4:</h4>
     <p>wwwroot là thư mục của ứng dụng, và tất cả như các file html, css, image, … đều đặt trong này.</p>
