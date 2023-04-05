@@ -77,12 +77,9 @@
         "applicationUrl": "http://localhost:5000"
         }
     }
-    }
-</code>
-    <li>
-        <h4>Thư mục thứ 4:</h4>
-        <p>wwwroot là thư mục của ứng dụng, và tất cả như các file html, css, image, … đều đặt trong này.</p>
-    </li>
+    }</code>
+    <h4>Thư mục thứ 4:</h4>
+    <p>wwwroot là thư mục của ứng dụng, và tất cả như các file html, css, image, … đều đặt trong này.</p>
 
 </ol>
 <h2>II. Tìm Hiểu Về Note.JS, Knockout.JS</h2>
