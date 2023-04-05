@@ -49,18 +49,10 @@
         đây. Và file này chỉ chạy trên Local, còn khi lên Server chủ yếu sẽ chạy vào các môi của appsetting.
     </p>
     <ol>
-        <pre>
+        <div>
+            <pre>
 
-    <!! --
-
-    
-
-    -->
-
-</pre>
-
-        <!-- 
-{
+    {
     "iisSettings": {
         "windowsAuthentication": false,
         "anonymousAuthentication": true,
@@ -88,8 +80,8 @@
         }
     }
     }
-
--->
+            </pre>
+        </div>
     </ol>
 
     <h4>Thư mục thứ 4:</h4>
