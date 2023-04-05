@@ -101,12 +101,12 @@ wwwroot là thư mục của ứng dụng, và tất cả như các file html, c
 
 Note Js bản chất của nó là 1 cái vỏ bọc bên ngoài, nó giống 1 môi trường, nó không phải là 1 ngôn ngữ, không phải là Framework, là 1 môi trường giúp các bạn chạy được trên môi trường máy chủ = code javascript ( hỗ trợ từ C++ )
 
-<h2>Kiến thức hỗ trợ để hiểu rõ hơn về Note JS</h2>
+<h3>Kiến thức hỗ trợ để hiểu rõ hơn về Note JS</h3>
 
 <ol>
-   <li><h3><a href="#Section2">Client - Server</a></h3></li>
-   <li><h3><a href="#Section3">NPM - chương trình quản lý thư viện ngầm định trong môi trường Node.js
-</a></h3></li>
+   <li><h4><a href="#Section2">Client - Server</a></h4></li>
+   <li><h4><a href="#Section3">NPM - chương trình quản lý thư viện ngầm định trong môi trường Node.js
+</a></h4></li>
 </ol>
 
 Client - Server
