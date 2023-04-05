@@ -49,7 +49,7 @@
         đây. Và file này chỉ chạy trên Local, còn khi lên Server chủ yếu sẽ chạy vào các môi của appsetting.
     </p>
 
-    <div>
+    <pre>
 
     {
     "iisSettings": {
@@ -80,7 +80,7 @@
     }
     }   
 
-    </div>
+</pre>
 
     <li>
         <h4>Tìm hiểu về LinQ</h4>
