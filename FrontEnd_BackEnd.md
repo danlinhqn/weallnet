@@ -116,7 +116,22 @@
         Những câu lệnh thông dụng thường xuyên sử dụng, tham khảo tại ( https://docs.npmjs.com/cli/v6/commands )
     </p>
     <p>
-
+        Câu lệnh cơ bản cũng rất quan trọng như "npm init" ( giúp ta setup tự động các môi trường thư viện trong
+        project ).
+    </p>
+    <p>
+        VD như: Nếu ta có 1 project và cần có nhiều người cùng phát triển trên project đó, làm sao ta có thể setup
+        nhanh cácthư viện hỗ trợ 1 cách nhanh chóng dựa trên hệ điều hành mà ta chạy để chỉnh sửa Project đó.
+    </p>
+    <p>
+        Câu lệnh "npm
+        init" sẽ giúp ta bằng
+        cách tạo ra 1 file là package.json, tại file này, chúng ta có thể cấu hình để cập nhật các thư viện của
+        project đó cần.
+        Khi 1 người khác edit project này trên 1 pc nơi khác, có thể cập nhật được những thư viện và môi trường
+        giống
+        nhau,
+        để khi chỉnh sửa hoặc nâng cấp sẽ không gặp lỗi.
     </p>
     <h4>Package-lock.json</h4>
     <p>
