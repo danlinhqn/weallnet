@@ -29,7 +29,7 @@
 <h3 id="user-content-section1" dir="auto">I. Tìm hiểu Về ASP.Net</h3>
 <ol>
     <li>
-        <h4>Tìm hiểu về cấu trúc dự liệu trong ASP .Net</h4>
+        <h4>Tìm hiểu về cấu trúc dự liệu trong ASP Net</h4>
     </li>
     <h4>File Startup cs</h4>
     <p>
