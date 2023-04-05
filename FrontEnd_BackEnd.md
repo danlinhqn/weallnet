@@ -16,6 +16,17 @@
  <h3><a href="#Section2">I. Make first project with Note.JS
 </a></h3>
 
+
+<ol>
+   <li><h3><a href="#Section2">Learn about file structure and test run
+</a></h3></li>
+   <li><h3><a href="#Section3">Learn about LinkQ
+</a></h3></li>
+</ol>
+
+
+<!--------------------------------------------------------------------------- → 
+
 <hr></hr>
 <h3>I. Make first project with ASP .Net</h3>
 <ol>
