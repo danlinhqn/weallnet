@@ -173,7 +173,6 @@
 <p>
     Mục đích chính cũng giúp chúng ta có để Loading dữ liệu theo thời gian thực trên Client.
 </p>
-</ol>
 <hr>
 </hr>
 <h3>Still Loading ...</h3>
