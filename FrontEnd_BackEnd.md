@@ -1,14 +1,14 @@
-<h1>Learn about Front End and Back End</h1>
+<h1>Tìm Hiểu Về Công Nghệ Front End and Back End</h1>
 <h2>Outline</h2>
-<h3><a href="#Section1">I. Make first project with ASP .Net
+<h3><a href="#Section1">I. Tìm hiểu Về ASP.Net
     </a></h3>
 <ol>
     <li>
-        <h3><a href="#Section2">Learn about file structure and test run
+        <h3><a href="#Section2">Tìm hiểu về cấu trúc dự liệu trong ASP.Net
             </a></h3>
     </li>
     <li>
-        <h3><a href="#Section3">Learn about LinkQ
+        <h3><a href="#Section3">Tìm hiểu LinkQ
             </a></h3>
     </li>
 </ol>
