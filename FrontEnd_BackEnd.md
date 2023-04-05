@@ -83,17 +83,14 @@
         }
     }
     }   
-
 </pre>
 </ol>
 <ol>
-    <li>
-        <h4>Thư mục thứ 4:</h4>
-    </li>
+    <h4>Thư mục thứ 4:</h4>
     <p>wwwroot là thư mục của ứng dụng, và tất cả như các file html, css, image, … đều đặt trong này.</p>
 </ol>
 
-<h4>Tìm hiểu về LinQ</h4>
+<h4>2. Tìm hiểu về LinQ</h4>
 
 <h2>II. Tìm Hiểu Về Note.JS, Knockout.JS</h2>
 <ol>
