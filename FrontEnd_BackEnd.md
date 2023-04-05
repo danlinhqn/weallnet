@@ -29,20 +29,16 @@
 <h3 id="user-content-section1" dir="auto">I. Tìm hiểu Về ASP.Net</h3>
 <ol>
     <li>
-        <h4>Tìm hiểu về cấu trúc dự liệu trong ASP.Net</h4>
+        <h4>Tìm hiểu về cấu trúc dự liệu trong ASP .Net</h4>
     </li>
-    <h4>
-        <pre>File Startup.cs</pre>
-    </h4>
+    <h4>File Startup cs</h4>
     <p>
         Tại đây dùng để cấu hình các service cần thiết cho ứng dụng để xử lý các request.
         VD: Bạn cũng có thể cấu hình sử dụng các loại dịch vụ (service) nào, như Dependency Injection, Logging.
         Và cũng cấu hình các dịch vụ cho đa môi trường.
     </p>
 
-    <h4>
-        <pre>File Program.cs</pre>
-    </h4>
+    <h4>File Program cs</h4>
     <p>
         Tạo 1 web Server, hay web host.
         File này chứa class Program chịu trách nhiệm cấu hình nền tảng (infrastructure) của ứng dụng.
@@ -114,7 +110,7 @@
 
     <h4>Luồng chạy dữ liệu: Bắt đầu từ file Program.cs ==> Startup.cs ==> Sau khi khởi tạo các biến môi trường và hệ
         thống
-        để chuẩn bị chạy, Chương trình sẽ chờ 1 hành động nào đó của user để tiếp tục xử lý.
+        để chuẩn bị chạy, sau đó Chương trình sẽ chờ 1 hành động nào đó của user để tiếp tục xử lý.
     </h4>
 
 </ol>
