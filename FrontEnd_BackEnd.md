@@ -49,8 +49,9 @@
         đây. Và file này chỉ chạy trên Local, còn khi lên Server chủ yếu sẽ chạy vào các môi của appsetting.
     </p>
 
-    <pre>
-<h3>
+
+    <h3>
+        <pre>
 {
   "iisSettings": {
     "windowsAuthentication": false,
@@ -79,8 +80,10 @@
     }
   }
 }
-</h3>
 </pre>
+    </h3>
+
+
     </li>
     <h4>Thư mục thứ 4:</h4>
     <p>
