@@ -49,7 +49,6 @@
         đây. Và file này chỉ chạy trên Local, còn khi lên Server chủ yếu sẽ chạy vào các môi của appsetting.
     </p>
     <code>
-
     {
     "iisSettings": {
         "windowsAuthentication": false,
@@ -77,7 +76,8 @@
         "applicationUrl": "http://localhost:5000"
         }
     }
-    }</code>
+    }
+</code>
     <h4>Thư mục thứ 4:</h4>
     <p>wwwroot là thư mục của ứng dụng, và tất cả như các file html, css, image, … đều đặt trong này.</p>
 
