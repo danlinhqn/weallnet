@@ -59,8 +59,7 @@
     đây. Và file này chỉ chạy trên Local, còn khi lên Server chủ yếu sẽ chạy vào các môi trên file appsetting.
 </p>
 
-<ol>
-    <pre>
+<pre>
 
     {
     "iisSettings": {
@@ -91,7 +90,6 @@
     }
     }   
 </pre>
-</ol>
 
 <h4>Thư mục wwwroot</h4>
 <p>wwwroot là thư mục của ứng dụng, và tất cả như các file html, css, image, … đều đặt trong này.</p>
