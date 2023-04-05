@@ -92,24 +92,22 @@
     }   
 </pre>
 </ol>
-<ol>
-    <h4>Thư mục wwwroot</h4>
-    <p>wwwroot là thư mục của ứng dụng, và tất cả như các file html, css, image, … đều đặt trong này.</p>
 
-    <h4>File: tên project.csproj</h4>
-    <p>Tại đây ta có thể thêm và quản các package hỗ trợ phát triển ứng dụng.</p>
+<h4>Thư mục wwwroot</h4>
+<p>wwwroot là thư mục của ứng dụng, và tất cả như các file html, css, image, … đều đặt trong này.</p>
 
-    <h4>File: libman.json</h4>
-    <p>Tại đây giúp chúng ta tải và sắp xếp thư mục của các thư viện hỗ trợ khi phát triển ứng dụng, như các thư viện
-        của JS, ...
-    </p>
+<h4>File: tên project.csproj</h4>
+<p>Tại đây ta có thể thêm và quản các package hỗ trợ phát triển ứng dụng.</p>
 
-    <h4>Luồng chạy dữ liệu: Bắt đầu từ file Program.cs ==> Startup.cs ==> Sau khi khởi tạo các biến môi trường và hệ
-        thống
-        để chuẩn bị chạy, sau đó Chương trình sẽ chờ 1 hành động nào đó của user để tiếp tục xử lý.
-    </h4>
+<h4>File: libman.json</h4>
+<p>Tại đây giúp chúng ta tải và sắp xếp thư mục của các thư viện hỗ trợ khi phát triển ứng dụng, như các thư viện
+    của JS, ...
+</p>
 
-</ol>
+<h4>Luồng chạy dữ liệu: Bắt đầu từ file Program.cs ==> Startup.cs ==> Sau khi khởi tạo các biến môi trường và hệ
+    thống
+    để chuẩn bị chạy, sau đó Chương trình sẽ chờ 1 hành động nào đó của user để tiếp tục xử lý.
+</h4>
 
 <h4>2. Tìm hiểu về LinQ</h4>
 
