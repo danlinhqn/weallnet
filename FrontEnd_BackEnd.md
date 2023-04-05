@@ -13,7 +13,7 @@
 </ol>
 
 
- <h3><a href="#Section2">I. Tìm Hiểu Về Note.JS, Knockout.JS
+ <h3><a href="#Section2">II. Tìm Hiểu Về Note.JS, Knockout.JS
 </a></h3>
 
 
@@ -95,9 +95,9 @@ wwwroot là thư mục của ứng dụng, và tất cả như các file html, c
 
 <h3>Still Loading ...</h3>
 
-/—------------->
+<h1>II. Tìm Hiểu Về Note.JS, Knockout.JS</h1>
 
-<h1>Tìm hiểu về Note JS</h1>
+<h2>1. Cơ Bản về Note JS</h2>
 
 Note Js bản chất của nó là 1 cái vỏ bọc bên ngoài, nó giống 1 môi trường, nó không phải là 1 ngôn ngữ, không phải là Framework, là 1 môi trường giúp các bạn chạy được trên môi trường máy chủ = code javascript ( hỗ trợ từ C++ )
 
