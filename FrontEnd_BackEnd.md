@@ -42,7 +42,7 @@
     <p>
         Tạo 1 web Server, hay web host.
         File này chứa class Program chịu trách nhiệm cấu hình nền tảng (infrastructure) của ứng dụng.
-        Nếu không có yêu cầu gì đặc biệt, bạn sẽ không cần điều chỉnh gì trong class Program và file Program.cs.
+        Nếu không có yêu cầu gì đặc biệt, bạn sẽ không cần điều chỉnh gì trong class Program và file Program cs.
     </p>
 
     <h4>Thư mục Connected Services:</h4>
