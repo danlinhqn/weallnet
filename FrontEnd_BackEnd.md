@@ -51,7 +51,16 @@
     <ol>
         <pre>
 
-    {
+    <!! --
+
+    
+
+    -->
+
+</pre>
+
+        <!-- 
+{
     "iisSettings": {
         "windowsAuthentication": false,
         "anonymousAuthentication": true,
@@ -80,7 +89,7 @@
     }
     }
 
-</pre>
+-->
     </ol>
 
     <h4>Thư mục thứ 4:</h4>
