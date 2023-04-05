@@ -19,6 +19,12 @@
 </li>
 <div id="user-content-section1" dir="auto">
 
+<h3>I. Make first project with Note.JS</h3>
+<ol>
+   <li><h4>Learn about file structure and test run
+</li>
+<div id="user-content-section1" dir="auto">
+
 Chương trình sẽ bắt đầu chạy từ file Program.cs, tại file này chúng ta có thể
 
 </div>
