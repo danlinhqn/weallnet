@@ -136,5 +136,3 @@ Tìm hiểu về knockout.js
 Mô Tả:
 
 Knockout(KO) là một thư viện của Javascript, nó giúp bạn tạo, hiển thị hay hiệu chỉnh User Interface(UI) với một data model được định nghĩa sẵn. Bất cứ khi nào bạn có phần thay đổi(thay đổi về action của user hay dữ liệu nội tại thay đổi) trong UI thì KO có thể giúp bạn thực hiện nó một cách đơn giản, và dễ kiểm soát. Hỗ trợ truy xuất database theo cách đơn giản, hữu dụng hơn. ( Data binding )
-
-
