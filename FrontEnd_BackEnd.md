@@ -1,5 +1,5 @@
 <h1>Tìm Hiểu Về Công Nghệ Front End and Back End</h1>
-<h2>Outline</h2>
+<h2>Mục Lục</h2>
 <h3><a href="#Section1">I. Tìm hiểu Về ASP.Net
     </a></h3>
 <ol>
@@ -25,10 +25,10 @@
 </ol>
 <hr>
 </hr>
-<h3>I. Make first project with ASP .Net</h3>
+<h3>I. Tìm hiểu Về ASP.Net</h3>
 <ol>
     <li>
-        <h4>Learn about file structure and test run
+        <h4>Tìm hiểu về cấu trúc dự liệu trong ASP.Net</h4>
     </li>
     <div id="user-content-section1" dir="auto">
         Chương trình sẽ bắt đầu chạy từ file Program.cs, tại file này chúng ta có thể
