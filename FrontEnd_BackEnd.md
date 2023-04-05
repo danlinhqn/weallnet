@@ -48,10 +48,6 @@
         ta sẽ thấy Profile ISS Express + Tên Chính của Thư mục Profile chính ). Và cũng có thể setup đa mội trường tại
         đây. Và file này chỉ chạy trên Local, còn khi lên Server chủ yếu sẽ chạy vào các môi của appsetting.
     </p>
-    <span>
-        <pre>
-
-            <div>
 
     {
     "iisSettings": {
@@ -81,9 +77,6 @@
         }
     }
     }   
-            </div>
-        </pre>
-    </span>
 
     <li>
         <h4>Tìm hiểu về LinQ</h4>
