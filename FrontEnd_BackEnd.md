@@ -79,20 +79,23 @@
     }
     }
     </pre>
-
-    <h4>Thư mục thứ 4:</h4>
-    <p>wwwroot là thư mục của ứng dụng, và tất cả như các file html, css, image, … đều đặt trong này.</p>
-
-    <li>
-        <h4>Tìm hiểu về LinQ</h4>
-    </li>
-
 </ol>
+
+<h4>Thư mục thứ 4:</h4>
+<p>wwwroot là thư mục của ứng dụng, và tất cả như các file html, css, image, … đều đặt trong này.</p>
+
+<li>
+    <h4>Tìm hiểu về LinQ</h4>
+</li>
+
+
 <h2>II. Tìm Hiểu Về Note.JS, Knockout.JS</h2>
 <ol>
     <h3>1. Cơ Bản về Note JS</h3>
-    Note Js bản chất của nó là 1 cái vỏ bọc bên ngoài, nó giống 1 môi trường, nó không phải là 1 ngôn ngữ, không phải là
-    Framework, là 1 môi trường giúp các bạn chạy được trên môi trường máy chủ bằng code javascript ( hỗ trợ từ C++ làm
+    Note Js bản chất của nó là 1 cái vỏ bọc bên ngoài, nó giống 1 môi trường, nó không phải là 1 ngôn ngữ, không
+    phải là
+    Framework, là 1 môi trường giúp các bạn chạy được trên môi trường máy chủ bằng code javascript ( hỗ trợ từ C++
+    làm
     nền tảng kết nối với máy chủ )
     <h4>Kiến thức hỗ trợ để hiểu rõ hơn về Note JS</h4>
     <h4>Client - Server</h4>
