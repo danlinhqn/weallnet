@@ -48,7 +48,7 @@
         ta sẽ thấy Profile ISS Express + Tên Chính của Thư mục Profile chính ). Và cũng có thể setup đa mội trường tại
         đây. Và file này chỉ chạy trên Local, còn khi lên Server chủ yếu sẽ chạy vào các môi của appsetting.
     </p>
-    <span style="background-color: gray;">
+    <div style="background-color: gray;">
         <pre>
     {
     "iisSettings": {
@@ -79,12 +79,14 @@
     }
     }
     </pre>
-    </span>
+    </div>
 
     <h4>Thư mục thứ 4:</h4>
     <p>wwwroot là thư mục của ứng dụng, và tất cả như các file html, css, image, … đều đặt trong này.</p>
 
-    <h4>Tìm hiểu về LinQ</h4>
+    <li>
+        <h4>Tìm hiểu về LinQ</h4>
+    </li>
 
 </ol>
 <h2>II. Tìm Hiểu Về Note.JS, Knockout.JS</h2>
