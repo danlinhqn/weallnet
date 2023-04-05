@@ -90,11 +90,6 @@ Propeties, tại thư mục này chứa file launchSetting.json, file này sẽ 
 wwwroot là thư mục của ứng dụng, và tất cả như các file html, css, image, … đều đặt trong này.
 1</p>
 
-<hr></hr>
-
-
-<h3>Still Loading ...</h3>
-
 <h2>II. Tìm Hiểu Về Note.JS, Knockout.JS</h2>
 
 <h3>1. Cơ Bản về Note JS</h3>
@@ -104,16 +99,19 @@ Note Js bản chất của nó là 1 cái vỏ bọc bên ngoài, nó giống 1 
 <h3>Kiến thức hỗ trợ để hiểu rõ hơn về Note JS</h3>
 
 <ol>
-   <li><h4><a href="#Section2">Client - Server</a></h4></li>
-   <li><h4><a href="#Section3">NPM - chương trình quản lý thư viện ngầm định trong môi trường Node.js
-</a></h4></li>
+   <li><h4>Client - Server</h4></li>
+	<p>
+VD client là gì, như là các giao diện duyệt web như Chorme, Firefox, .., giao diện dành cho người dùng.
+
+Server nơi sẽ respont yêu cầu từ client của ta sẽ viết = Notejs ( ngôn ngữ javascipt ), gửi về vd như ( html,csss, javascript, … )
+	</p>
+   <li><h4>NPM - chương trình quản lý thư viện ngầm định trong môi trường Node.js</h4></li>
 </ol>
 
 Client - Server
 
-VD client là gì, như là các giao diện duyệt web như Chorme, Firefox, .., giao diện dành cho người dùng.
 
-Server nơi sẽ respont yêu cầu từ client của ta sẽ viết = Notejs ( ngôn ngữ javascipt ), gửi về vd như ( html,csss, javascript, … )
+
 
 npm: trang cung cap’ nguon tai lieu ho tro javascript, npm giup quan ly va setup duoc cac thu vien voi javascript 9 ( Mac dinh khi setup notejs auto da~ cai` dat luon npm ) -> Nhung cau lenh thuong xuyen dung tham khao tai day ( https://docs.npmjs.com/cli/v6/commands )
 
@@ -136,3 +134,8 @@ Tìm hiểu về knockout.js
 Mô Tả:
 
 Knockout(KO) là một thư viện của Javascript, nó giúp bạn tạo, hiển thị hay hiệu chỉnh User Interface(UI) với một data model được định nghĩa sẵn. Bất cứ khi nào bạn có phần thay đổi(thay đổi về action của user hay dữ liệu nội tại thay đổi) trong UI thì KO có thể giúp bạn thực hiện nó một cách đơn giản, và dễ kiểm soát. Hỗ trợ truy xuất database theo cách đơn giản, hữu dụng hơn. ( Data binding )
+
+<hr></hr>
+
+
+<h3>Still Loading ...</h3>
