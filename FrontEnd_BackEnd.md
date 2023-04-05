@@ -118,15 +118,12 @@
     <p>
         Câu lệnh cơ bản cũng rất quan trọng như "npm init" ( giúp ta setup tự động các môi trường thư viện trong
         project ).
-
         VD như: Nếu ta có 1 project và cần có nhiều người cùng phát triển trên project đó, làm sao ta có thể setup
         nhanh các
         thư viện hỗ trợ 1 cách nhanh chóng dựa trên hệ điều hành mà ta chạy để chỉnh sửa Project đó. Câu lệnh "npm
         init" sẽ giúp ta bằng
         cách tạo ra 1 file là package.json, tại file này, chúng ta có thể cấu hình để cập nhật các thư viện của
         project đó cần.
-        </br>
-        </br>
         Khi 1 người khác edit project này trên 1 pc nơi khác, có thể cập nhật được những thư viện và môi trường
         giống
         nhau,
