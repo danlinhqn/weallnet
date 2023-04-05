@@ -13,18 +13,15 @@
 </ol>
 
 
- <h3><a href="#Section2">I. Make first project with Note.JS
+ <h3><a href="#Section2">I. Tìm Hiểu Về Note.JS, Knockout.JS
 </a></h3>
 
 
 <ol>
-   <li><h3><a href="#Section2">Learn about file structure and test run
-</a></h3></li>
-   <li><h3><a href="#Section3">Learn about LinkQ
+   <li><h3><a href="#Section2">Cơ bản về Note JS</a></h3></li>
+   <li><h3><a href="#Section3">Cơ bản về Knockout JS
 </a></h3></li>
 </ol>
-
-
 
 <hr></hr>
 <h3>I. Make first project with ASP .Net</h3>
@@ -91,9 +88,53 @@ Propeties, tại thư mục này chứa file launchSetting.json, file này sẽ 
 <h4>Thư mục thứ 4:</h4>
 <p>
 wwwroot là thư mục của ứng dụng, và tất cả như các file html, css, image, … đều đặt trong này.
-</p>
+1</p>
 
 <hr></hr>
 
 
 <h3>Still Loading ...</h3>
+
+/—------------->
+
+<h1>Tìm hiểu về Note JS</h1>
+
+Note Js bản chất của nó là 1 cái vỏ bọc bên ngoài, nó giống 1 môi trường, nó không phải là 1 ngôn ngữ, không phải là Framework, là 1 môi trường giúp các bạn chạy được trên môi trường máy chủ = code javascript ( hỗ trợ từ C++ )
+
+<h2>Kiến thức hỗ trợ để hiểu rõ hơn về Note JS</h2>
+
+<ol>
+   <li><h3><a href="#Section2">Client - Server</a></h3></li>
+   <li><h3><a href="#Section3">NPM - chương trình quản lý thư viện ngầm định trong môi trường Node.js
+</a></h3></li>
+</ol>
+
+Client - Server
+
+VD client là gì, như là các giao diện duyệt web như Chorme, Firefox, .., giao diện dành cho người dùng.
+
+Server nơi sẽ respont yêu cầu từ client của ta sẽ viết = Notejs ( ngôn ngữ javascipt ), gửi về vd như ( html,csss, javascript, … )
+
+npm: trang cung cap’ nguon tai lieu ho tro javascript, npm giup quan ly va setup duoc cac thu vien voi javascript 9 ( Mac dinh khi setup notejs auto da~ cai` dat luon npm ) -> Nhung cau lenh thuong xuyen dung tham khao tai day ( https://docs.npmjs.com/cli/v6/commands )
+
+Cau lenh co ban de setup thu vien nhu: npm init ( giup setup cac thu vien moi truong project ), VD nhu: nhieu cung` code 1 project, lam` sao de? co’ 1 moi truong` giong nhau de? cung` nhau edit, thi npm giup’ ta dieu do = cach tao ra 1 file package.json ( su dung = cau lenh tren CMD or Terminal is : npm init )
+
+Package-lock.json ( File nay ghi nhan chi tiet lai qua trinh cai` dat cac thu vien, khi setup cac nhieu thu vien vao` thi file nay` se~ cang dai`, cung~ ghi nhan cai` dat them cac phu. thuoc. cua cac thu vien cai` dat ghi nhan tai. file package.json,  cai’ nay chu? yeu ghi cho may doc, khong xoa ) 
+
+Node_modules: la noi chua cac file cua thu vien ( Khong dc xoa ‘ ) ( Cung~ khong nen share thu muc nay` neu’ nhieu` nguoi` cung` lam viec. tren 1 project ) ( co’ the? dung cau lenh npm install de? setup thu vien sau khi co’ source code, cac coder shard voi nhau tren 1 project ) ( file nay` phu thuoc vao he dieu hanh nguoi` share code + dung luong cao, rat de gay ra error cho nguoi` nhan source code )
+
+=> cung~ la co che khi cung` nhau share source code voi nhau
+
+Express ( Main thing ) ( la` 1 Framework web back end for notejs, giup viet code ngan gon hon khi setup config, giup thoi gian phat trien ung toi uu hon va` rat nhieu ho tro khac, phat trien ung dung nhanh hon ) ( https://expressjs.com/en/starter/installing.html ) giup coder lap trinh bac cao )
+
+View Egines:  giup’ coder co’ the viet html + code cho vong` lap, code nguon` tren file html also hay if else, …
+
+// —----------------->
+
+Tìm hiểu về knockout.js
+
+Mô Tả:
+
+Knockout(KO) là một thư viện của Javascript, nó giúp bạn tạo, hiển thị hay hiệu chỉnh User Interface(UI) với một data model được định nghĩa sẵn. Bất cứ khi nào bạn có phần thay đổi(thay đổi về action của user hay dữ liệu nội tại thay đổi) trong UI thì KO có thể giúp bạn thực hiện nó một cách đơn giản, và dễ kiểm soát. Hỗ trợ truy xuất database theo cách đơn giản, hữu dụng hơn. ( Data binding )
+
+
