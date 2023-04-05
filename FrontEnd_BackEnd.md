@@ -79,11 +79,11 @@
     }
     }
     </pre>
-    </li>
-    <h4>Thư mục thứ 4:</h4>
-    <p>
-        wwwroot là thư mục của ứng dụng, và tất cả như các file html, css, image, … đều đặt trong này.
-        1</p>
+    <li>
+        <h4>Thư mục thứ 4:</h4>
+        <p>
+            wwwroot là thư mục của ứng dụng, và tất cả như các file html, css, image, … đều đặt trong này.
+            1</p>
     </li>
 
 </ol>
