@@ -26,28 +26,39 @@
 <hr>
 </hr>
 
-<h3>I. Tìm hiểu Về ASP.Net</h3>
+<h3 id="user-content-section1" dir="auto">I. Tìm hiểu Về ASP.Net</h3>
 <ol>
     <li>
         <h4>Tìm hiểu về cấu trúc dự liệu trong ASP.Net</h4>
     </li>
-    <div id="user-content-section1" dir="auto">
-        Chương trình sẽ bắt đầu chạy từ file Program.cs, tại file này chúng ta có thể
-    </div>
-    <h4>Thư mục đầu tiên:</h4>
+    <h4>File Startup.cs</h4>
+    <p>
+        Tại đây dùng để cấu hình các service cần thiết cho ứng dụng để xử lý các request.
+        VD: Bạn cũng có thể cấu hình sử dụng các loại dịch vụ (service) nào, như Dependency Injection, Logging.
+        Và cũng cấu hình các dịch vụ cho đa môi trường.
+    </p>
+
+    <h4>File Program.cs</h4>
+    <p>
+        Tạo 1 web Server, hay web host.
+        File này chứa class Program chịu trách nhiệm cấu hình nền tảng (infrastructure) của ứng dụng.
+        Nếu không có yêu cầu gì đặc biệt, bạn sẽ không cần điều chỉnh gì trong class Program và file Program.cs.
+    </p>
+
+    <h4>Thư mục Connected Services:</h4>
     <p> Connected Services sẽ làm việc khi chúng ta thêm 1 services bên ngoài vào ví dụ như: Cloud Storage with Azure
         Storage, …
     </p>
-    <h4>Thư mục thứ 2:</h4>
+    <h4>Thư mục Dependencies:</h4>
     <p>
         Dependencies
     </p>
-    <h4>Thư mục thứ 3:</h4>
+    <h4>Thư mục Propeties:</h4>
     <p>
         Propeties, tại thư mục này chứa file launchSetting.json, file này sẽ chứa các profile để chúng ta thực thi ứng
         dụng ( Chúng ta có thể thấy tại nút play run chương trình màu xanh lá cây như IIS Express => khi kéo xuống chúng
         ta sẽ thấy Profile ISS Express + Tên Chính của Thư mục Profile chính ). Và cũng có thể setup đa mội trường tại
-        đây. Và file này chỉ chạy trên Local, còn khi lên Server chủ yếu sẽ chạy vào các môi của appsetting.
+        đây. Và file này chỉ chạy trên Local, còn khi lên Server chủ yếu sẽ chạy vào các môi trên file appsetting.
     </p>
 
 </ol>
@@ -86,8 +97,22 @@
 </pre>
 </ol>
 <ol>
-    <h4>Thư mục thứ 4:</h4>
+    <h4>Thư mục wwwroot</h4>
     <p>wwwroot là thư mục của ứng dụng, và tất cả như các file html, css, image, … đều đặt trong này.</p>
+
+    <h4>File: tên project.csproj</h4>
+    <p>Tại đây ta có thể thêm và quản các package hỗ trợ phát triển ứng dụng.</p>
+
+    <h4>File: libman.json</h4>
+    <p>Tại đây giúp chúng ta tải và sắp xếp thư mục của các thư viện hỗ trợ khi phát triển ứng dụng, như các thư viện
+        của JS, ...
+    </p>
+
+    <h4>Luồng chạy dữ liệu: Bắt đầu từ file Program.cs ==> Startup.cs ==> Sau khi khởi tạo các biến môi trường và hệ
+        thống
+        để chuẩn bị chạy, Chương trình sẽ chờ 1 hành động nào đó của user để tiếp tục xử lý.
+    </h4>
+
 </ol>
 
 <h4>2. Tìm hiểu về LinQ</h4>
