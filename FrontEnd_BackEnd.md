@@ -50,7 +50,7 @@
     </p>
 
     <pre>
-    <h3>
+
     {
     "iisSettings": {
         "windowsAuthentication": false,
@@ -79,7 +79,6 @@
         }
     }
     }
-    </h3>
 </pre>
     </li>
     <h4>Thư mục thứ 4:</h4>
