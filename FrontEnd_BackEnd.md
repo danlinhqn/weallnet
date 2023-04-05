@@ -49,7 +49,7 @@
         đây. Và file này chỉ chạy trên Local, còn khi lên Server chủ yếu sẽ chạy vào các môi của appsetting.
     </p>
 
-    <pre class="notranslate">
+    <p>
     {
     "iisSettings": {
         "windowsAuthentication": false,
@@ -78,7 +78,7 @@
         }
     }
     }
-    </pre>
+</p>
 </ol>
 
 <h4>Thư mục thứ 4:</h4>
