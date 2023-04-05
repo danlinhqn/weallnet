@@ -31,14 +31,18 @@
     <li>
         <h4>Tìm hiểu về cấu trúc dự liệu trong ASP.Net</h4>
     </li>
-    <h4>File Startup.cs</h4>
+    <h4>
+        <pre>File Startup.cs</pre>
+    </h4>
     <p>
         Tại đây dùng để cấu hình các service cần thiết cho ứng dụng để xử lý các request.
         VD: Bạn cũng có thể cấu hình sử dụng các loại dịch vụ (service) nào, như Dependency Injection, Logging.
         Và cũng cấu hình các dịch vụ cho đa môi trường.
     </p>
 
-    <h4>File Program.cs</h4>
+    <h4>
+        <pre>File Program.cs</pre>
+    </h4>
     <p>
         Tạo 1 web Server, hay web host.
         File này chứa class Program chịu trách nhiệm cấu hình nền tảng (infrastructure) của ứng dụng.
