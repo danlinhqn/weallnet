@@ -8,7 +8,7 @@
             </a></h3>
     </li>
     <li>
-        <h3><a href="#Section3">Tìm hiểu LinkQ
+        <h3><a href="#Section3">Tìm hiểu về LinkQ
             </a></h3>
     </li>
 </ol>
@@ -82,6 +82,10 @@
     </span>
     <h4>Thư mục thứ 4:</h4>
     <p>wwwroot là thư mục của ứng dụng, và tất cả như các file html, css, image, … đều đặt trong này.</p>
+
+    <li>
+        <h4>Tìm hiểu về LinQ</h4>
+    </li>
 
 </ol>
 <h2>II. Tìm Hiểu Về Note.JS, Knockout.JS</h2>
