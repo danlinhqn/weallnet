@@ -228,10 +228,12 @@
     thực hiện, và do đó nó thiếu hầu hết các tính năng nâng cao của các giao thức truyền tệp. TFTP chỉ đọc và ghi tệp từ
     các máy chủ từ xa. Nó không thể liệt kê, xóa, hoặc đổi tên các tập tin hoặc thư mục và cũng không có xác thực giữa
     client và server.
-
+</p>
+<p>
     Do không được bảo mật trong quá trình truyền tệp nên TFTP thường được ứng dụng trong mạng cục bộ (LAN) để backup,
     import config IOS trên các thiết bị switch router firewall, hoặc cài đặt license cho các thiết bị này.
-
+</p>
+<p>
     TFTP sử dụng giao thức UDP làm giao thức truyền tải của nó và sử dụng port 69 làm port mặc định. Các tệp tin sẽ được
     chia nhỏ thành các Block có chiều dài cố định 512 byte và được truyền lần lượt. Cả 2 thiết bị đều có thể coi là 1
     TFTP server hay TFTP Client (gọi chung là Remote Host).
