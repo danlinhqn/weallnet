@@ -159,7 +159,7 @@
 </p>
 
 <h3 id="user-content-section2" dir="auto">II. Tìm Hiểu Về Note.JS, Knockout.JS</h3>
-<h3>1. Cơ Bản về Note JS</h3>
+<h3 id="user-content-section21" dir="auto">1. Cơ Bản về Note JS</h3>
 Note Js bản chất của nó là 1 cái vỏ bọc bên ngoài, nó giống 1 môi trường, nó không phải là 1 ngôn ngữ, không
 phải là
 Framework, là 1 môi trường giúp các bạn chạy được trên môi trường máy chủ bằng code javascript ( hỗ trợ từ C++
@@ -234,7 +234,7 @@ nền tảng kết nối với máy chủ )
     Là công cụ giúp chung ta viết code HTML một cách ngắn gọn hơn, hỗ trợ trong Data binding một cách hiệu quả,
     tối ưu hóa khi phát triển sản phẩm.
 </p>
-<h3>2. Cơ Bản về Knockout.js</h3>
+<h3 id="user-content-section22" dir="auto">2. Cơ Bản về Knockout.js</h3>
 <p>
     Knockout(KO) là một thư viện của Javascript, nó giúp bạn tạo, hiển thị hay hiệu chỉnh User Interface(UI) với một
     data model được định nghĩa sẵn. Bất cứ khi nào bạn có phần thay đổi(thay đổi về action của user hay dữ liệu nội
