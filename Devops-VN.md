@@ -25,7 +25,9 @@
         <h3><a href="#Section15">Cloud Load Balancing</a></h3>
     </li>
 </ol>
-<h3><a href="#Section2">II. DevOps</a></h3>
+<h3><a href="#Section3">II. Demo Website caching architecture?</a></h3>
+<h3><a href="#Section4">III. Monitoring & logging for services</a></h3>
+<h3><a href="#Section2">IV. DevOps</a></h3>
 
 <ol>
     <li>
@@ -282,17 +284,21 @@
     Deploy lên server ( Sau đó ta có thể dùng các công nghệ để quản lý các Container này, tiêu biểu ví dụ như dùng
     Docker</p>
 
+<h3 id="user-content-Section3" dir="auto">II. Website caching architecture?</h3>
+<h3 id="user-content-Section4" dir="auto">III. Monitoring & logging for services</h3>
+
 <div id="DevOps">
-    <h3 id="user-content-Section21" dir="auto">II. DevOps</h3>
-    <h4 id="user-content-Section22" dir="auto">1. Global server load balancing</h4>
+    <h3 id="user-content-Section22" dir="auto">II. DevOps</h3>
+    <h4 id="user-content-Section21" dir="auto">1. Global server load balancing</h4>
     <p>
         Là hệ thống kiểm tra định kỹ, thường xuyên đo đạc các chỉ số của hệ thống, từ đó cung cấp cho chúng ta
-        cái nhìn chính xác và tổng quan, tình trạng mà hệ thống đang hoạt động, giúp ta phát hiện các rủi ro gây hại cho hệ thống.
+        cái nhìn chính xác và tổng quan, tình trạng mà hệ thống đang hoạt động, giúp ta phát hiện các rủi ro gây hại cho
+        hệ thống.
     </p>
-    <h4 id="user-content-Section23" dir="auto">2. Storage</h4>
-    <h4 id="user-content-Section24" dir="auto">3. Network</h4>
-    <h4 id="user-content-Section25" dir="auto">4. Policy</h4>
-    <h4 id="user-content-Section26" dir="auto">5. Image Caching</h4>
+    <h4 id="user-content-Section22" dir="auto">2. Storage</h4>
+    <h4 id="user-content-Section23" dir="auto">3. Network</h4>
+    <h4 id="user-content-Section24" dir="auto">4. Policy</h4>
+    <h4 id="user-content-Section25" dir="auto">5. Image Caching</h4>
     <h4 id="user-content-Section26" dir="auto">6. Components of Kubernetes</h4>
 </div>
 
