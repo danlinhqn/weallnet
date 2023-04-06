@@ -29,7 +29,7 @@
 
 <ol>
     <li>
-        <h3><a href="#Section21">Explain about container</a></h3>
+        <h3>Explain about container</h3>
     </li>
 
     <li>
