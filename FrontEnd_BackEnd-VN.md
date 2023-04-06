@@ -4,23 +4,23 @@
     </a></h3>
 <ol>
     <li>
-        <h3>Tìm hiểu về cấu trúc dự liệu trong ASP.Net</h3>
+        <h3><a href="#Section11">Tìm hiểu về cấu trúc dự liệu trong ASP.Net</a></h3>
     </li>
     <li>
-        <h3>Tìm hiểu về LinkQ</h3>
+        <h3><a href="#Section12">Tìm hiểu về LinQ</a></h3>
     </li>
     <li>
-        <h3>Tìm hiểu về Mô Hình MVVM</h3>
+        <h3><a href="#Section13">Tìm hiểu về Mô Hình MVVM</a></h3>
     </li>
 </ol>
 <h3><a href="#Section2">II. Tìm Hiểu Về Note.JS, Knockout.JS
     </a></h3>
 <ol>
     <li>
-        <h3>Cơ bản về Note JS</h3>
+        <h3><a href="#Section21">Cơ bản về Note JS</a></h3>
     </li>
     <li>
-        <h3>Cơ bản về Knockout JS</h3>
+        <h3><a href="#Section22">Cơ bản về Knockout JS</a></h3>
     </li>
 </ol>
 <hr>
@@ -28,7 +28,7 @@
 
 <h3 id="user-content-section1" dir="auto">I. Tìm hiểu Về ASP.Net</h3>
 
-<h4>1. Tìm hiểu về cấu trúc dự liệu trong ASP Net</h4>
+<h4 id="user-content-section11" dir="auto">1. Tìm hiểu về cấu trúc dự liệu trong ASP.Net</h4>
 <h4>File Startup cs</h4>
 <p>
     Tại đây dùng để cấu hình các service cần thiết cho ứng dụng để xử lý các request.</br>
@@ -104,7 +104,7 @@
     của JS, ...
 </p>
 
-<h4>2. Tìm hiểu về LinQ</h4>
+<h4 id="user-content-section12" dir="auto">2. Tìm hiểu về LinQ</h4>
 <p>LINQ (Language Integrated Query) - ngôn ngữ truy vấn tích hợp - nó tích hợp cú pháp truy vấn ( gần giống các câu lệnh
     SQL ) dựa trên ngôn ngữ lập trình C#,
     cho nó có khả năng truy cập các nguồn dữ liệu khác nhau (SQL Db, XML, List ...) với cùng cú pháp.</p>
@@ -129,7 +129,7 @@
 
 <a href="https://codelearn.io/sharing/linq-la-gi-va-no-hoat-dong-nhu-the-nao">Link tham khảo thêm</a>
 
-<h4>3. Tìm hiểu về Mô Hình MVVM</h4>
+<h4 id="user-content-section13" dir="auto">3. Tìm hiểu về Mô Hình MVVM</h4>
 
 <p>MVVM không phải là framework hay thư viện, api…
     nó chỉ đơn thuần là hướng dẫn bạn định nghĩa cấu trúc ứng dụng của bạn.
