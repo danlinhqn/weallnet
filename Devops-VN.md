@@ -475,10 +475,7 @@ tình trạng của các Pods cho Kubernetes Master.
     các
     hoạt động của node về API Server của Kubernetes Master. kubelet sẽ chạy các container sử dụng container runtime như
     Docker. Nó sẽ không quản lý các container không được tạo bởi Kubernetes.</p>
-<p>Một thành phần nữa trong Node đó là kube-proxy đảm nhiệm vai trò routing giữa service và các pods.
 
-    Ở mỗi node, chúng ta cũng sẽ có các Container Runtime đảm nhận việc chạy các containers. Kubernetes hỗ trợ một vài
-    container runtime như: Docker, rkt, …</p>
 </p>
 <p>
 <h3>Thành phần cuối cùng của Kubernetes là các Addons</h3>
