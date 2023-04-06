@@ -25,7 +25,7 @@
         <h3><a href="#Section15">Cloud Load Balancing</a></h3>
     </li>
 </ol>
-<h3><a href="#Section3">II. Demo Website caching architecture</a></h3>
+<h3><a href="#Section3">II. Website caching architecture</a></h3>
 <h3><a href="#Section4">III. Monitoring & logging for services</a></h3>
 <h3><a href="#Section2">IV. DevOps</a></h3>
 
