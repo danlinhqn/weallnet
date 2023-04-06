@@ -51,7 +51,7 @@
 <hr>
 </hr>
 
-<div id="Có bao nhiêu loại LoadBalancer">
+<span id="Có bao nhiêu loại LoadBalancer">
 
     <h3 id="user-content-Section11" dir="auto">I. Có bao nhiêu loại LoadBalancer</h3>
 
@@ -284,7 +284,7 @@
         Deploy lên server ( Sau đó ta có thể dùng các công nghệ để quản lý các Container này, tiêu biểu ví dụ như dùng
         Docker</p>
 
-</div>
+</span>
 
 <div id="DevOps">
     <h3 id="user-content-Section21" dir="auto">II. DevOps</h3>
