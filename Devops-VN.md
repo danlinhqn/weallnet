@@ -352,6 +352,7 @@
     dữ
     liệu gần nhất dựa trên địa lý hoặc hiệu suất mạng.</p>
 </p>
+
 <h4 id="user-content-Section22" dir="auto">2. Storage</h4>
 <p>
 <p>Storage còn gọi Bộ nhớ máy tính, thường được gọi là ổ nhớ (storage) hoặc bộ nhớ (memory), là một
@@ -373,8 +374,55 @@
 
 <p>Bộ nhớ máy tính có thể chia thành hai dạng: Bộ nhớ trong (main memory) và bộ nhớ ngoài (external storage).</p>
 </p>
+
 <h4 id="user-content-Section23" dir="auto">3. Network</h4>
+<p>
+
+<p>Network hay có thể hiểu là Mạng máy tính,là mạng viễn thông kỹ thuật số cho phép các nút mạng chia sẻ tài nguyên.
+    Trong các mạng máy tính, các thiết bị máy tính trao đổi dữ liệu với nhau bằng các kết nối (liên kết dữ liệu) giữa
+    các nút. Các liên kết dữ liệu này được thiết lập qua cáp mạng như dây hoặc cáp quang hoặc phương tiện không dây như
+    Wi-Fi.</p>
+
+<p>Các thiết bị máy tính mạng làm nhiệm vụ khởi động, định tuyến và chấm dứt dữ liệu được gọi là các nút mạng. Các
+    nút thường được xác định bởi địa chỉ mạng và có thể bao gồm máy chủ mạng như máy tính cá nhân, điện thoại và máy
+    chủ, cũng như phần cứng mạng như bộ định tuyến và chuyển mạch. Hai thiết bị như vậy có thể được cho là được kết nối
+    với nhau khi một thiết bị có thể trao đổi thông tin với thiết bị kia, cho dù chúng có kết nối trực tiếp với nhau hay
+    không. Trong hầu hết các trường hợp, các giao thức truyền thông dành riêng cho ứng dụng được xếp lớp (nghĩa là mang
+    theo trọng tải) so với các giao thức truyền thông chung khác. Bộ sưu tập công nghệ thông tin ghê gớm này đòi hỏi
+    phải có những người quản lý mạng lành nghề để giữ cho tất cả hệ thống mạng hoạt động tốt.</p>
+
+<p>Mạng máy tính hỗ trợ một số lượng lớn các ứng dụng và dịch vụ như truy cập vào World Wide Web, video kỹ thuật số, âm
+    thanh kỹ thuật số, sử dụng chung các máy chủ lưu trữ và ứng dụng, máy in và máy fax, và sử dụng email và ứng dụng
+    nhắn tin tức thời cũng như nhiều ứng dụng khác. Mạng máy tính khác nhau về cách thức truyền tin được sử dụng để mang
+    tín hiệu, giao thức truyền thông để tổ chức lưu lượng mạng, kích thước của mạng, cấu trúc liên kết, cơ chế điều
+    khiển lưu lượng và ý định tổ chức mạng. Mạng máy tính nổi tiếng nhất là Internet.</p>
+</p>
+
 <h4 id="user-content-Section24" dir="auto">4. Policy</h4>
+<p>
+<p>Policy hay có thể hiểu là Network Policy
+    Là công cụ chính để bảo mật kubernetes network. Nó cho phép ta dễ dàng giới hạn network traffic trong cluster để chỉ
+    cho phép các traffic mong muốn đi qua.</p>
+
+<p>Để hiểu tầm quan trọng của Network policies (chính sách mạng), hãy cùng tìm hiểu ngắn gọn về cách bảo mật mạng
+    thường đạt được trước khi có network policy. Trước đây trong các mạng doanh nghiệp, bảo mật mạng được cung cấp bằng
+    cách thiết kế cấu trúc liên kết vật lý của các thiết bị mạng (switch, router, firewall) và cấu hình liên quan của
+    chúng. Cấu trúc liên kết vật lý xác định ranh giới bảo mật của mạng. Trong giai đoạn đầu tiên của ảo hóa, cùng một
+    cấu trúc mạng và thiết bị mạng được ảo hóa trên đám mây và các kỹ thuật tương tự để tạo cấu trúc liên kết mạng cụ
+    thể của các thiết bị mạng (ảo) đã được sử dụng để cung cấp bảo mật mạng. Việc thêm các ứng dụng hoặc dịch vụ mới
+    thường yêu cầu thiết kế mạng bổ sung để cập nhật cấu hình mạng và cấu hình thiết bị mạng nhằm cung cấp bảo mật mong
+    muốn.</p>
+
+<p>Ngược lại, mô hình mạng Kubernetes xác định một mạng “flat” trong đó mỗi pod có thể giao tiếp với tất cả các pod
+    khác trong cluster bằng địa chỉ IP của pod. Cách tiếp cận này đơn giản hóa hàng loạt thiết kế mạng và cho phép các
+    workload mới được lập lịch động ở bất kỳ đâu trong cluster mà không phụ thuộc vào thiết kế mạng.</p>
+
+<p>Trong mô hình này, thay vì bảo mật mạng được xác định bởi các ranh giới cấu trúc liên kết mạng, nó được xác định
+    bằng cách sử dụng các chính sách mạng độc lập với cấu trúc liên kết mạng. Các chính sách mạng được đóng gói hơn nữa
+    khỏi mạng bằng cách sử dụng label selector làm cơ chế chính của chúng để xác định workload nào có thể trao đổi với
+    workload nào, thay vì địa chỉ IP hoặc dãy địa chỉ IP.</p>
+</p>
+
 <h4 id="user-content-Section25" dir="auto">5. Image Caching</h4>
 <h4 id="user-content-Section26" dir="auto">6. Components of Kubernetes</h4>
 
