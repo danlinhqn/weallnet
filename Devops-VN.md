@@ -460,7 +460,7 @@
 <p>Kubernetes được xây dựng với 3 thành phần chính là Master, Node và các Addons</p>
 
 <p>
-<h3>- Đầu tiên là về thành phần Master</h3>
+<h4>- Đầu tiên là về thành phần Master</h4>
 
 Thành phần này có thể xem là trái tim của Kubernetes, được xây dựng để quản lý tất cả các hoạt động, thao tác với
 các containers trong cluster. Nó bao gồm API Server (kube-apiserver), etcd, Scheduler (kube-scheduler), Controller
@@ -481,7 +481,7 @@ tình trạng của các Pods cho Kubernetes Master.
     chúng ta cũng sẽ có các Container Runtime đảm nhận việc chạy các containers. Kubernetes hỗ trợ một vài container
     runtime như: Docker, rkt, …</p>
 <p>
-<h4>Thành phần cuối cùng của Kubernetes là các Addons</h4>
+<h4>- Thành phần cuối cùng của Kubernetes là các Addons</h4>
 <p>Thành phần này là các pods và service hiện thực các chức năng của một cluster như DNS Server, Web UI (Dashboard) hỗ
     trợ quản lý Kubernetes cluster bằng giao diện, Container Resource Monitoring (record các thông tin về hệ thống vào
     database và cho phép chúng ta phân tích các thông tin đó sử dụng UI) và Cluster-level Logging (lưu log của các
