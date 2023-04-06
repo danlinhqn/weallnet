@@ -110,104 +110,109 @@
     thông, chia tiến trình truyền thông thành nhiều tầng và trong mỗi tầng có thể có nhiều giao thức khác nhau thực hiện
     các nhu cầu truyền thông cụ thể.
 </p>
-<table border="3">
-    <tbody>
-        <tr>
-            <td>
-                <p style="text-align:justify"><strong>Tầng</strong></p>
-            </td>
-            <td>
-                <p style="text-align:justify"><strong>Chức năng chủ yếu</strong></p>
-            </td>
-            <td>
-                <p style="text-align:justify"><strong>Giao thức</strong></p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <p style="text-align:justify"><strong>7 – Application</strong></p>
-            </td>
-            <td>
-                <p style="text-align:justify">Giao tiếp người và môi trường mạng</p>
-            </td>
-            <td>
-                <p style="text-align:justify">Ứng dụng</p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <p style="text-align:justify"><strong>6 – Presentation</strong></p>
-            </td>
-            <td>
-                <p style="text-align:justify">Chuyển đổi cú pháp dữ liệu để đáp ứng yêu cầu truyền thông của các ứng
-                    dụng</p>
-            </td>
-            <td>
-                <p style="text-align:justify">Giao thứcBiến đổi mã</p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <p style="text-align:justify"><strong>5 - Session</strong></p>
-            </td>
-            <td>
-                <p style="text-align:justify">Quản lý các cuộc liên lạc giữa các thực thể bằng cách thiết lập, duy trì,
-                    đồng bộ hóa và hủy bỏ các phiên truyền thông giữa các ứng dụng</p>
-            </td>
-            <td>
-                <p style="text-align:justify">Giao thức phiên</p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <p style="text-align:justify"><strong>4 – Transpost</strong></p>
-            </td>
-            <td>
-                <p style="text-align:justify">Vận chuyển thông tin giữa các máy chủ (End to End). Kiểm soát lỗi và luồng
-                    dữ liệu</p>
-            </td>
-            <td>
-                <p style="text-align:justify">Giao thức Giao vận</p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <p style="text-align:justify"><strong>3 – Network</strong></p>
-            </td>
-            <td>
-                <p style="text-align:justify">Thực hiện chọn đường và đảm bảo trao đổi thông tin trong liên mạng với
-                    công nghệ chuyển mạch thích hợp.</p>
-            </td>
-            <td>
-                <p style="text-align:justify">Giao thức mạng</p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <p style="text-align:justify"><strong>2 – Data Link</strong></p>
-            </td>
-            <td>
-                <p style="text-align:justify">Tạo/gỡ bỏ khung thông tin (Frames), kiểm soát luồng và kiểm soát lỗi.</p>
-            </td>
-            <td>
-                <p style="text-align:justify">Thủ tục kiểm soát</p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <p style="text-align:justify"><strong>1 - Physical</strong></p>
-            </td>
-            <td>
-                <p style="text-align:justify">Đảm bảo các yêu cầu truyền/nhận các chuỗi bit qua các phương tiện vật lý.
-                </p>
-            </td>
-            <td>
-                <p style="text-align:justify">Giao diện DTE - DCE</p>
-            </td>
-        </tr>
-    </tbody>
-</table>
-
+<div>
+    <table border="3">
+        <tbody>
+            <tr>
+                <td>
+                    <p style="text-align:justify"><strong>Tầng</strong></p>
+                </td>
+                <td>
+                    <p style="text-align:justify"><strong>Chức năng chủ yếu</strong></p>
+                </td>
+                <td>
+                    <p style="text-align:justify"><strong>Giao thức</strong></p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p style="text-align:justify"><strong>7 – Application</strong></p>
+                </td>
+                <td>
+                    <p style="text-align:justify">Giao tiếp người và môi trường mạng</p>
+                </td>
+                <td>
+                    <p style="text-align:justify">Ứng dụng</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p style="text-align:justify"><strong>6 – Presentation</strong></p>
+                </td>
+                <td>
+                    <p style="text-align:justify">Chuyển đổi cú pháp dữ liệu để đáp ứng yêu cầu truyền thông của các ứng
+                        dụng</p>
+                </td>
+                <td>
+                    <p style="text-align:justify">Giao thứcBiến đổi mã</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p style="text-align:justify"><strong>5 - Session</strong></p>
+                </td>
+                <td>
+                    <p style="text-align:justify">Quản lý các cuộc liên lạc giữa các thực thể bằng cách thiết lập, duy
+                        trì,
+                        đồng bộ hóa và hủy bỏ các phiên truyền thông giữa các ứng dụng</p>
+                </td>
+                <td>
+                    <p style="text-align:justify">Giao thức phiên</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p style="text-align:justify"><strong>4 – Transpost</strong></p>
+                </td>
+                <td>
+                    <p style="text-align:justify">Vận chuyển thông tin giữa các máy chủ (End to End). Kiểm soát lỗi và
+                        luồng
+                        dữ liệu</p>
+                </td>
+                <td>
+                    <p style="text-align:justify">Giao thức Giao vận</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p style="text-align:justify"><strong>3 – Network</strong></p>
+                </td>
+                <td>
+                    <p style="text-align:justify">Thực hiện chọn đường và đảm bảo trao đổi thông tin trong liên mạng với
+                        công nghệ chuyển mạch thích hợp.</p>
+                </td>
+                <td>
+                    <p style="text-align:justify">Giao thức mạng</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p style="text-align:justify"><strong>2 – Data Link</strong></p>
+                </td>
+                <td>
+                    <p style="text-align:justify">Tạo/gỡ bỏ khung thông tin (Frames), kiểm soát luồng và kiểm soát lỗi.
+                    </p>
+                </td>
+                <td>
+                    <p style="text-align:justify">Thủ tục kiểm soát</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p style="text-align:justify"><strong>1 - Physical</strong></p>
+                </td>
+                <td>
+                    <p style="text-align:justify">Đảm bảo các yêu cầu truyền/nhận các chuỗi bit qua các phương tiện vật
+                        lý.
+                    </p>
+                </td>
+                <td>
+                    <p style="text-align:justify">Giao diện DTE - DCE</p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
 <h4>Congestion Control</h4>
 <h4>Pods là gì</h4>
 <p>
