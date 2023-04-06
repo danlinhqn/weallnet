@@ -313,6 +313,24 @@
 
 <h3 id="user-content-Section2" dir="auto">II. DevOps</h3>
 <h4 id="user-content-Section21" dir="auto">1. Global server load balancing</h4>
+<p>
+    Global Server Load Balancing (GSLB) là một công nghệ hướng lưu lượng truy cập mạng đến một nhóm trung tâm dữ liệu ở
+    các vị trí địa lý khác nhau. Mỗi trung tâm dữ liệu cung cấp các dịch vụ ứng dụng tương tự và lưu lượng khách được
+    hướng đến trang Web tối ưu với hiệu suất tốt nhất cho mỗi khách hàng. GSLB giám sát sức khỏe và sự đáp ứng của từng
+    trang Web như Cân bằng tải máy chủ, hướng lưu lượng truy cập đến trang Web với thời gian phản hồi tốt nhất.
+    GSLB cung cấp Cân bằng tải cho nhiều trang Web hoặc trung tâm dữ liệu bao gồm các dịch vụ sau:
+<p>
+    – Khả năng khôi phục cao và khắc phục thảm họa và liên tục kinh doanh cho các môi trường có nhiều trang và trung tâm
+    dữ liệu nằm ở các vị trí khác nhau. Nếu một trang Web không thành công, hệ thống GSLB phản hồi bằng cách chuyển
+    hướng người dùng cuối và khách hàng đến các trang Web có sẵn thay thế.</p>
+<p>
+    – Khả năng mở rộng được cung cấp, cho phép các tổ chức cung cấp dịch vụ từ nhiều trung tâm dữ liệu, được đặt ở các
+    vị trí chiến lược ở bất kỳ đâu trên thế giới.</p>
+<p>– Hiệu suất đạt được bằng cách phân phối các yêu cầu tải công việc của khách hàng tới nhiều trang Web. Nhiệm vụ chính
+    của Global Server Load Balancing là nhận biết vị trí địa lý và hướng các yêu cầu của khách hàng đến vị trí trung tâm
+    dữ
+    liệu gần nhất dựa trên địa lý hoặc hiệu suất mạng.</p>
+</p>
 <h4 id="user-content-Section22" dir="auto">2. Storage</h4>
 <h4 id="user-content-Section23" dir="auto">3. Network</h4>
 <h4 id="user-content-Section24" dir="auto">4. Policy</h4>
