@@ -26,28 +26,7 @@
     </li>
 </ol>
 <h3><a href="#Section2">II. DevOps</a></h3>
-<ol>
-    <li>
-        <h3><a href="#Section21">Explain about container</a></h3>
-    </li>
-    <li>
-        <h3><a href="#Section22">Storage</a></h3>
-    </li>
 
-    <li>
-        <h3><a href="#Section23">Network</a></h3>
-    </li>
-    <li>
-        <h3><a href="#Section24">Policy</a></h3>
-    </li>
-    <li>
-        <h3><a href="#Section25">Image Caching</a></h3>
-    </li>
-    <li>
-        <h3><a href="#Section26">Components of Kubernetes.</a></h3>
-    </li>
-
-</ol>
 <hr>
 </hr>
 
@@ -249,6 +228,15 @@
     Sau đó, nó tiếp tục được đưa vào các nền tảng đa phương tiện hàng đầu như YouTube và Spotify,
     các ứng dụng truyền thông như Skype và trình phát đa phương tiện VLC.</p>
 <h4>Hệ thống phân giải tên miền (DNS)</h4>
+<p>
+    DNS là viết tắt của cụm từ Domain Name System, mang ý nghĩa đầy đủ là hệ thống phân giải tên miền. DNS được phát
+    minh vào năm 1984 cho Internet, chỉ một hệ thống cho phép thiết lập tương ứng giữa địa chỉ IP và tên miền.
+</p>
+<p>
+    DNS là viết tắt của cụm từ Domain Name System, mang ý nghĩa đầy đủ là hệ thống phân giải tên miền. Hiểu một cách
+    ngắn gọn nhất, DNS cơ bản là một hệ thống chuyển đổi các tên miền website mà chúng ta đang sử dụng, ở dạng
+    www.tenmien.com sang một địa chỉ IP dạng số tương ứng với tên miền đó và ngược lại.
+</p>
 <h4>Container</h4>
 <p>Container giống như 1 chuẩn mới, mà rất nhiều ứng dụng được đóng gói thành các container khác nhau, sau đó mới được
     Deploy lên server ( Sau đó ta có thể dùng các công nghệ để quản lý các Container này, tiêu biểu ví dụ như dùng
