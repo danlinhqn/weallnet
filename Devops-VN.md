@@ -477,6 +477,9 @@ tình trạng của các Pods cho Kubernetes Master.
     Docker. Nó sẽ không quản lý các container không được tạo bởi Kubernetes.</p>
 
 </p>
+<p>Một thành phần nữa trong Node đó là kube-proxy đảm nhiệm vai trò routing giữa service và các pods. Ở mỗi node,
+    chúng ta cũng sẽ có các Container Runtime đảm nhận việc chạy các containers. Kubernetes hỗ trợ một vài container
+    runtime như: Docker, rkt, …</p>
 <p>
 <h3>Thành phần cuối cùng của Kubernetes là các Addons</h3>
 <p>Thành phần này là các pods và service hiện thực các chức năng của một cluster như DNS Server, Web UI (Dashboard) hỗ
@@ -484,11 +487,6 @@ tình trạng của các Pods cho Kubernetes Master.
     database và cho phép chúng ta phân tích các thông tin đó sử dụng UI) và Cluster-level Logging (lưu log của các
     container để chúng ta có thể xem thông tin log của chúng).</p>
 </p>
-
-<p>Một thành phần nữa trong Node đó là kube-proxy đảm nhiệm vai trò routing giữa service và các pods. Ở mỗi node,
-    chúng ta cũng sẽ có các Container Runtime đảm nhận việc chạy các containers. Kubernetes hỗ trợ một vài container
-    runtime như: Docker, rkt, …</p>
-
 
 <hr>
 </hr>
