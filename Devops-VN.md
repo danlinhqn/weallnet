@@ -437,7 +437,14 @@
     thường có tính chất nhất thời, cho phép sử dụng lại dữ liệu đã lấy hoặc tính toán trước đó, nên sẽ giúp tăng tốc cho
     việc truy xuất dữ liệu ở những lần sau.</p>
 <p>Từ đó ta có thể hiểu Image Caching là phương pháp có thể xử lý image 1 cách tối ưu hóa và nhanh nhất.</p>
+
 <h4 id="user-content-Section26" dir="auto">6. Components of Kubernetes</h4>
+
+<p>Giới thiều về Kubernetes: Đây là 1 cái tool open soure được phát triển bởi google, đóng vai trò đảm bảo các services,
+    container hoạt
+    động
+    trơn tru theo
+    hướng dẫn từ 1 file config có đuổi yaml, yml.</p>
 
 <hr>
 </hr>
