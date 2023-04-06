@@ -285,6 +285,11 @@
 <div id="DevOps">
     <h3 id="user-content-Section21" dir="auto">II. DevOps</h3>
     <h4 id="user-content-Section22" dir="auto">1. Global server load balancing</h4>
+    <p>
+        Là hệ thống giống như kiểm tra định kỹ, thường xuyên đo đạc các chỉ số của hệ thống, từ đó cung cấp cho chúng ta
+        cái nhìn chính xác tình
+        trạng mà hệ thống đang hoạt động, giúp ta phát hiện các rủi ro gây hại cho hệ thống
+    </p>
     <h4 id="user-content-Section23" dir="auto">2. Storage</h4>
     <h4 id="user-content-Section24" dir="auto">3. Network</h4>
     <h4 id="user-content-Section25" dir="auto">4. Policy</h4>
