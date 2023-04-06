@@ -1,4 +1,5 @@
-<h1>Learn about Load Balancer</h1>
+<h1>Learn about Load Balancer and Devops</h1>
+<h2>About Load Balancer</h2>
 <p>
     Load Balancer là cách phân phối lưu lượng hiệu quả trên nhiều máy chủ, Load Balancer
     giống như "cảnh sát giao thông" đứng trước máy chủ và định tuyến,
