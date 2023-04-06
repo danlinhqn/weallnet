@@ -4,11 +4,15 @@
     </a></h3>
 <ol>
     <li>
-        <h3><a href="#Section2">Tìm hiểu về cấu trúc dự liệu trong ASP.Net
+        <h3><a href="#Section1">Tìm hiểu về cấu trúc dự liệu trong ASP.Net
             </a></h3>
     </li>
     <li>
-        <h3><a href="#Section3">Tìm hiểu về LinkQ
+        <h3><a href="#Section1">Tìm hiểu về LinkQ
+            </a></h3>
+    </li>
+    <li>
+        <h3><a href="#Section1">Tìm hiểu về Mô Hình MVVM
             </a></h3>
     </li>
 </ol>
@@ -19,7 +23,7 @@
         <h3><a href="#Section2">Cơ bản về Note JS</a></h3>
     </li>
     <li>
-        <h3><a href="#Section3">Cơ bản về Knockout JS
+        <h3><a href="#Section2">Cơ bản về Knockout JS
             </a></h3>
     </li>
 </ol>
@@ -31,7 +35,7 @@
 <h4>Tìm hiểu về cấu trúc dự liệu trong ASP Net</h4>
 <h4>File Startup cs</h4>
 <p>
-    Tại đây dùng để cấu hình các service cần thiết cho ứng dụng để xử lý các request.
+    Tại đây dùng để cấu hình các service cần thiết cho ứng dụng để xử lý các request.</br>
     VD: Bạn cũng có thể cấu hình sử dụng các loại dịch vụ (service) nào, như Dependency Injection, Logging.
     Và cũng cấu hình các dịch vụ cho đa môi trường.
 </p>
@@ -40,9 +44,11 @@
 <p>
     Tạo 1 web Server, hay web host.
     File này chứa class Program chịu trách nhiệm cấu hình nền tảng (infrastructure) của ứng dụng.
-    Nếu không có yêu cầu gì đặc biệt, bạn sẽ không cần điều chỉnh gì trong class Program và file Program cs.
 </p>
-
+<p>Luồng chạy dữ liệu: Bắt đầu từ file Program.cs ==> Startup.cs ==> Sau khi khởi tạo các biến môi trường và hệ
+    thống
+    để chuẩn bị chạy, sau đó Chương trình sẽ chờ 1 hành động nào đó của user để tiếp tục xử lý.
+</p>
 <h4>Thư mục Connected Services:</h4>
 <p> Connected Services sẽ làm việc khi chúng ta thêm 1 services bên ngoài vào ví dụ như: Cloud Storage with Azure
     Storage, …
@@ -102,14 +108,9 @@
     của JS, ...
 </p>
 
-<h4>Luồng chạy dữ liệu: Bắt đầu từ file Program.cs ==> Startup.cs ==> Sau khi khởi tạo các biến môi trường và hệ
-    thống
-    để chuẩn bị chạy, sau đó Chương trình sẽ chờ 1 hành động nào đó của user để tiếp tục xử lý.
-</h4>
-
 <h4>2. Tìm hiểu về LinQ</h4>
 
-<h2>II. Tìm Hiểu Về Note.JS, Knockout.JS</h2>
+<h3 id="user-content-section2" dir="auto">II. Tìm Hiểu Về Note.JS, Knockout.JS</h3>
 <h3>1. Cơ Bản về Note JS</h3>
 Note Js bản chất của nó là 1 cái vỏ bọc bên ngoài, nó giống 1 môi trường, nó không phải là 1 ngôn ngữ, không
 phải là
