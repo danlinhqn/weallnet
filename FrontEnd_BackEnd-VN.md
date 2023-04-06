@@ -4,27 +4,23 @@
     </a></h3>
 <ol>
     <li>
-        <h3><a href="#Section1">Tìm hiểu về cấu trúc dự liệu trong ASP.Net
-            </a></h3>
+        <h3>Tìm hiểu về cấu trúc dự liệu trong ASP.Net</h3>
     </li>
     <li>
-        <h3><a href="#Section1">Tìm hiểu về LinkQ
-            </a></h3>
+        <h3>Tìm hiểu về LinkQ</h3>
     </li>
     <li>
-        <h3><a href="#Section1">Tìm hiểu về Mô Hình MVVM
-            </a></h3>
+        <h3>Tìm hiểu về Mô Hình MVVM</h3>
     </li>
 </ol>
 <h3><a href="#Section2">II. Tìm Hiểu Về Note.JS, Knockout.JS
     </a></h3>
 <ol>
     <li>
-        <h3><a href="#Section2">Cơ bản về Note JS</a></h3>
+        <h3>Cơ bản về Note JS</h3>
     </li>
     <li>
-        <h3><a href="#Section2">Cơ bản về Knockout JS
-            </a></h3>
+        <h3>Cơ bản về Knockout JS</h3>
     </li>
 </ol>
 <hr>
@@ -32,7 +28,7 @@
 
 <h3 id="user-content-section1" dir="auto">I. Tìm hiểu Về ASP.Net</h3>
 
-<h4>Tìm hiểu về cấu trúc dự liệu trong ASP Net</h4>
+<h4>1. Tìm hiểu về cấu trúc dự liệu trong ASP Net</h4>
 <h4>File Startup cs</h4>
 <p>
     Tại đây dùng để cấu hình các service cần thiết cho ứng dụng để xử lý các request.</br>
@@ -109,6 +105,70 @@
 </p>
 
 <h4>2. Tìm hiểu về LinQ</h4>
+<p>LINQ (Language Integrated Query) - ngôn ngữ truy vấn tích hợp - nó tích hợp cú pháp truy vấn ( gần giống các câu lệnh
+    SQL ) dựa trên ngôn ngữ lập trình C#,
+    cho nó có khả năng truy cập các nguồn dữ liệu khác nhau (SQL Db, XML, List ...) với cùng cú pháp.</p>
+<pre>
+    public class Product
+    {
+        public int ID {set; get;}
+        public string Name {set; get;}         // tên
+        public double Price {set; get;}        // giá
+        public string[] Colors {set; get;}     // các màu sắc
+        public int Brand {set; get;}           // ID Nhãn hiệu, hãng
+        public Product(int id, string name, double price, string[] colors, int brand)
+        {
+            ID = id; Name = name; Price = price; Colors = colors; Brand = brand;
+        }
+        // Lấy chuỗi thông tin sản phẳm gồm ID, Name, Price
+        override public string ToString()
+           => $"{ID,3} {Name, 12} {Price, 5} {Brand, 2} {string.Join(",", Colors)}";
+    
+    }
+</pre>
+
+<a href="https://codelearn.io/sharing/linq-la-gi-va-no-hoat-dong-nhu-the-nao">Link tham khảo thêm</a>
+
+<h4>3. Tìm hiểu về Mô Hình MVVM</h4>
+
+<p>MVVM không phải là framework hay thư viện, api…
+    nó chỉ đơn thuần là hướng dẫn bạn định nghĩa cấu trúc ứng dụng của bạn.
+    MVVM được phát triển dựa trên kiến trúc MVP.</p>
+<p>
+    Trong các mô hình truyền thống, chúng ta thường xử lý sự kiện Click và viết mã thực thi trực tiếp ở trên một Button
+    nhưng với mô hình MVVM không cho phép làm điều này.
+    Trong mô hình MVVM, các điều khiển(control) như Button, ListView, SearchBar, v.v.
+    không thể kết buộc trực tiếp đến dữ liệu mà phải thông qua thuộc tính Command hay Controler.
+</p>
+<p>
+    Trong thư mục Views chứ các file giao diện. Và mỗi file giao diện đều có class code-behind đi kèm.
+    Đặc biệt file code-behind ta sẽ không sử dụng đến, mọi điều cần làm sẽ chuyển xuống class ViewModel.
+</p>
+<h4>Cấu trúc thư mục trong MVVM</h4>
+
+<ul style="list-style: none;">
+
+    <li>
+        <h4>Views</h4>
+        <p>Trong thư mục Views chứ các file giao diện. Và mỗi file giao diện đều có class code-behind đi kèm.
+            Đặc biệt file code-behind ta sẽ không sử dụng đến, mọi điều cần làm sẽ chuyển xuống class ViewModel.</p>
+
+
+    <li>
+        <h4>Models</h4>
+        <p>Trong thư mục Models trong đó tạo các class chứa data và bất kỳ liên kết validation,
+            logic nghiệp vụ để chắc chắc
+            tính toàn vẹn của data,
+            bạn có thể tách ra thư mục Repositories khác. Chúng được dùng như một phần của mô hình MVVM.</p>
+    </li>
+    <li>
+        <h4>ViewModels</h4>
+        <p>ViewModels sẽ sử dụng các model liên kết giữa View-ViewModel giúp chúng gửi và nhận dữ liệu
+            ( Binding,DataContext, Behaviors SDK ).
+        </p>
+    </li>
+
+</ul>
 
 <h3 id="user-content-section2" dir="auto">II. Tìm Hiểu Về Note.JS, Knockout.JS</h3>
 <h3>1. Cơ Bản về Note JS</h3>
@@ -120,11 +180,14 @@ nền tảng kết nối với máy chủ )
 <h4>Kiến thức hỗ trợ để hiểu rõ hơn về Note JS</h4>
 <h4>Client - Server</h4>
 <p>
+    Client có thể hiểu là giao diện nơi người dùng có thể gửi các request đến server.
+</p>
+<p>
     - VD Client là gì, như các giao diện duyệt web như Chrome, Firefox, .., hay gọi là giao diện dành cho
     người dùng.
 </p>
 <p>
-    - Server nơi sẽ phản hồi yêu cầu từ Client bằng Notejs ( dựa trên ngôn ngữ javascipt ), gửi về VD gói tin
+    Server là nơi sẽ phản hồi yêu cầu từ Client bằng Notejs ( dựa trên ngôn ngữ javascipt ), gửi về VD gói tin
     như (
     html,csss, javascript, … )
 </p>
