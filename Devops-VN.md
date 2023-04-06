@@ -25,7 +25,7 @@
         <h3><a href="#Section15">Cloud Load Balancing</a></h3>
     </li>
 </ol>
-<h3><a href="#Section3">II. Demo Website caching architecture?</a></h3>
+<h3><a href="#Section3">II. Demo Website caching architecture</a></h3>
 <h3><a href="#Section4">III. Monitoring & logging for services</a></h3>
 <h3><a href="#Section2">IV. DevOps</a></h3>
 
@@ -284,7 +284,7 @@
     Deploy lên server ( Sau đó ta có thể dùng các công nghệ để quản lý các Container này, tiêu biểu ví dụ như dùng
     Docker</p>
 
-<h3 id="user-content-Section3" dir="auto">II. Website caching architecture?</h3>
+<h3 id="user-content-Section3" dir="auto">II. Website caching architecture</h3>
 <h3 id="user-content-Section4" dir="auto">III. Monitoring & logging for services</h3>
 
 <div id="DevOps">
