@@ -468,7 +468,7 @@ Manager (kube-controller-manager) và Cloud Controller Manager (cloud-controller
 </p>
 
 <p>
-<h3>- Thứ 2 là thành phần Node</h3>
+<h4>- Thứ 2 là thành phần Node</h4>
 Thành phần Node được xây dựng để chạy trên tất cả các node của Kubenetes cluster, chịu trách nhiệm quản lý và báo cáo
 tình trạng của các Pods cho Kubernetes Master.
 <p>Để làm được điều này, trong mỗi node, chúng ta sẽ có một agent tên là kubelet, chịu trách nhiệm quản lý và báo cáo
@@ -481,7 +481,7 @@ tình trạng của các Pods cho Kubernetes Master.
     chúng ta cũng sẽ có các Container Runtime đảm nhận việc chạy các containers. Kubernetes hỗ trợ một vài container
     runtime như: Docker, rkt, …</p>
 <p>
-<h3>Thành phần cuối cùng của Kubernetes là các Addons</h3>
+<h4>Thành phần cuối cùng của Kubernetes là các Addons</h4>
 <p>Thành phần này là các pods và service hiện thực các chức năng của một cluster như DNS Server, Web UI (Dashboard) hỗ
     trợ quản lý Kubernetes cluster bằng giao diện, Container Resource Monitoring (record các thông tin về hệ thống vào
     database và cho phép chúng ta phân tích các thông tin đó sử dụng UI) và Cluster-level Logging (lưu log của các
