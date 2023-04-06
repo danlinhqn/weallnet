@@ -311,16 +311,14 @@
     hệ thống.
 </p>
 
-<div id="DevOps">
-    <h3 id="user-content-Section2" dir="auto">II. DevOps</h3>
-    <h4 id="user-content-Section21" dir="auto">1. Global server load balancing</h4>
+<h3 id="user-content-Section2" dir="auto">II. DevOps</h3>
+<h4 id="user-content-Section21" dir="auto">1. Global server load balancing</h4>
 
-    <h4 id="user-content-Section22" dir="auto">2. Storage</h4>
-    <h4 id="user-content-Section23" dir="auto">3. Network</h4>
-    <h4 id="user-content-Section24" dir="auto">4. Policy</h4>
-    <h4 id="user-content-Section25" dir="auto">5. Image Caching</h4>
-    <h4 id="user-content-Section26" dir="auto">6. Components of Kubernetes</h4>
-</div>
+<h4 id="user-content-Section22" dir="auto">2. Storage</h4>
+<h4 id="user-content-Section23" dir="auto">3. Network</h4>
+<h4 id="user-content-Section24" dir="auto">4. Policy</h4>
+<h4 id="user-content-Section25" dir="auto">5. Image Caching</h4>
+<h4 id="user-content-Section26" dir="auto">6. Components of Kubernetes</h4>
 
 <hr>
 </hr>
