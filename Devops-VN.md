@@ -312,6 +312,27 @@
 </p>
 
 <h3 id="user-content-Section2" dir="auto">II. DevOps</h3>
+
+<p>Devops là từ viết tắt của từ Developmet (Dev) => Người phát triển phần mềm + Operations (Ops) => Là Người Triển khai
+    và
+    cài đặt.
+    Devops là kết nối giữa 2 công việc trên.</p>
+<p>Người làm Devops không cần thiết phải làm việc viết phần mềm, nhưng ta phải biết được các khái niệm, luồng dữ liệu,
+    và
+    phải làm thế nào để phần mềm đó chạy được. VD như đội phát triễn sẽ đưa phần mềm và làm thế nào ta có thể setup cho
+    phần
+    mềm đó chạy như ở trên máy của đội phát triển chạy.</p>
+<p>Và quan trọng người làm Devops phải biết được phần config ( Phần tùy biến như Databases, Web Services , Automation
+    test,
+    … ).</p>
+<p>Giả sử như 1 ứng dụng đã viết xong, và đã test xong và cần được đẩy trên server nào đó để khách hàng sử dụng => Đây
+    là
+    trách nhiệm của Devops.</p>
+<p>Người làm Depvops cũng phải biết các kiến thức về Networking, Security, DNS hoạt động như thế nào, những khái niệm
+    liên
+    quan
+    tới virtualization…</p>
+
 <h4 id="user-content-Section21" dir="auto">1. Global server load balancing</h4>
 <p>
     Global Server Load Balancing (GSLB) là một công nghệ hướng lưu lượng truy cập mạng đến một nhóm trung tâm dữ liệu ở
