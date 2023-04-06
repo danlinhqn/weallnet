@@ -424,6 +424,17 @@
 </p>
 
 <h4 id="user-content-Section25" dir="auto">5. Image Caching</h4>
+<p>Ta có thể hiểu bằng cách tách 2 khái niệm này thành:</p>
+<p>
+    Image có thể hiểu là nơi hay môi trường cho ta lưu tất cả lại như source code, libs, file, tool, biến môi trường, hệ
+    điều hành,...
+    cũng là Base cấp thấp nhất, để cho các ứng dụng của mình có thể chạy lên nó. Ứng dụng cần những thứ gì thì Image sẽ
+    gọp tất cả lại
+</p>
+<p>Caching là một kỹ thuật tăng độ truy xuất dữ liệu và giảm tải cho hệ thống. Cache là nơi lưu tập hợp các dữ liệu,
+    thường có tính chất nhất thời, cho phép sử dụng lại dữ liệu đã lấy hoặc tính toán trước đó, nên sẽ giúp tăng tốc cho
+    việc truy xuất dữ liệu ở những lần sau.</p>
+<p>Từ đó ta có thể hiểu Image Caching là phương pháp có thể xử lý image 1 cách tối ưu hóa và nhanh nhất.</p>
 <h4 id="user-content-Section26" dir="auto">6. Components of Kubernetes</h4>
 
 <hr>
