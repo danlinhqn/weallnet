@@ -145,27 +145,18 @@
     Đặc biệt file code-behind ta sẽ không sử dụng đến, mọi điều cần làm sẽ chuyển xuống class ViewModel.
 </p>
 <h4>Cấu trúc thư mục trong MVVM</h4>
-
-<span style="right: 20px;">
-
-    <h4>Views</h4>
-    <p>Trong thư mục Views chứ các file giao diện. Và mỗi file giao diện đều có class code-behind đi kèm.
-        Đặc biệt file code-behind ta sẽ không sử dụng đến, mọi điều cần làm sẽ chuyển xuống class ViewModel.</p>
-
-
-    <h4>Models</h4>
-    <p>Trong thư mục Models trong đó tạo các class chứa data và bất kỳ liên kết validation,
-        logic nghiệp vụ để chắc chắc
-        tính toàn vẹn của data,
-        bạn có thể tách ra thư mục Repositories khác. Chúng được dùng như một phần của mô hình MVVM.</p>
-
-    <h4>ViewModels</h4>
-    <p>ViewModels sẽ sử dụng các model liên kết giữa View-ViewModel giúp chúng gửi và nhận dữ liệu
-        ( Binding,DataContext, Behaviors SDK ).
-    </p>
-
-</span>
-
+<h4>Views</h4>
+<p>Trong thư mục Views chứ các file giao diện. Và mỗi file giao diện đều có class code-behind đi kèm.
+    Đặc biệt file code-behind ta sẽ không sử dụng đến, mọi điều cần làm sẽ chuyển xuống class ViewModel.</p>
+<h4>Models</h4>
+<p>Trong thư mục Models trong đó tạo các class chứa data và bất kỳ liên kết validation,
+    logic nghiệp vụ để chắc chắc
+    tính toàn vẹn của data,
+    bạn có thể tách ra thư mục Repositories khác. Chúng được dùng như một phần của mô hình MVVM.</p>
+<h4>ViewModels</h4>
+<p>ViewModels sẽ sử dụng các model liên kết giữa View-ViewModel giúp chúng gửi và nhận dữ liệu
+    ( Binding,DataContext, Behaviors SDK ).
+</p>
 
 <h3 id="user-content-section2" dir="auto">II. Tìm Hiểu Về Note.JS, Knockout.JS</h3>
 <h3>1. Cơ Bản về Note JS</h3>
