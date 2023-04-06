@@ -29,27 +29,19 @@
 
 <ol>
     <li>
-        <h3>Explain about container</h3>
+        <h3><a href="#Section11">Global server load balancing</a></h3>
     </li>
-
     <li>
-        <h3>Storage</h3>
+        <h3><a href="#Section12">Server Load Balancing</a></h3>
     </li>
-
     <li>
-        <h3>Network</h3>
+        <h3><a href="#Section13">Network Load Balancing</a></h3>
     </li>
-
     <li>
-        <h3>Policy</h3>
+        <h3><a href="#Section14">Container Load Balancing</a></h3>
     </li>
-
     <li>
-        <h3>Image Caching</h3>
-    </li>
-
-    <li>
-        <h3>Components of Kubernetes</h3>
+        <h3><a href="#Section15">Cloud Load Balancing</a></h3>
     </li>
 </ol>
 
