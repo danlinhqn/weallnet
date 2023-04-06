@@ -288,7 +288,7 @@
 <h3 id="user-content-Section4" dir="auto">III. Monitoring & logging for services</h3>
 
 <div id="DevOps">
-    <h3 id="user-content-Section22" dir="auto">II. DevOps</h3>
+    <h3 id="user-content-Section2" dir="auto">II. DevOps</h3>
     <h4 id="user-content-Section21" dir="auto">1. Global server load balancing</h4>
     <p>
         Là hệ thống kiểm tra định kỹ, thường xuyên đo đạc các chỉ số của hệ thống, từ đó cung cấp cho chúng ta
