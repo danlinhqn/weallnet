@@ -276,7 +276,7 @@
 <p>
     DNS là viết tắt của cụm từ Domain Name System, mang ý nghĩa đầy đủ là hệ thống phân giải tên miền. Hiểu một cách
     ngắn gọn nhất, DNS cơ bản là một hệ thống chuyển đổi các tên miền website mà chúng ta đang sử dụng, ở dạng
-    www.tenmien.com sang một địa chỉ IP dạng số tương ứng với tên miền đó và ngược lại.
+    www. Tên Miền .com sang một địa chỉ IP dạng số tương ứng với tên miền đó và ngược lại.
 </p>
 <h4>Container</h4>
 <p>Container giống như 1 chuẩn mới, mà rất nhiều ứng dụng được đóng gói thành các container khác nhau, sau đó mới
@@ -302,18 +302,19 @@
 
 
 </p>
-
 <a href="https://longvan.net/web-cache-la-gi.html">Link tham khảo thêm</a>
+
 <h3 id="user-content-Section4" dir="auto">III. Monitoring & logging for services</h3>
+<p>
+    Là hệ thống kiểm tra định kỹ, thường xuyên đo đạc các chỉ số của hệ thống, từ đó cung cấp cho chúng ta
+    cái nhìn chính xác và tổng quan, tình trạng mà hệ thống đang hoạt động, giúp ta phát hiện các rủi ro gây hại cho
+    hệ thống.
+</p>
 
 <div id="DevOps">
     <h3 id="user-content-Section2" dir="auto">II. DevOps</h3>
     <h4 id="user-content-Section21" dir="auto">1. Global server load balancing</h4>
-    <p>
-        Là hệ thống kiểm tra định kỹ, thường xuyên đo đạc các chỉ số của hệ thống, từ đó cung cấp cho chúng ta
-        cái nhìn chính xác và tổng quan, tình trạng mà hệ thống đang hoạt động, giúp ta phát hiện các rủi ro gây hại cho
-        hệ thống.
-    </p>
+
     <h4 id="user-content-Section22" dir="auto">2. Storage</h4>
     <h4 id="user-content-Section23" dir="auto">3. Network</h4>
     <h4 id="user-content-Section24" dir="auto">4. Policy</h4>
