@@ -1,6 +1,6 @@
 <h1>Learn about Load Balancer</h1>
 <p>
-    Mô tả: Load Balancer là cách phân phối lưu lượng hiệu quả trên nhiều máy chủ, Load Balancer
+    Load Balancer là cách phân phối lưu lượng hiệu quả trên nhiều máy chủ, Load Balancer
     giống như "cảnh sát giao thông" đứng trước máy chủ và định tuyến,
     có thể kiểm soát các yêu cầu của máy khách trên tất cả các máy chủ để có tốc
     độ và hiệu suất cao nhất và đảm bảo rằng không máy chủ làm việc quá sức..
@@ -353,6 +353,26 @@
     liệu gần nhất dựa trên địa lý hoặc hiệu suất mạng.</p>
 </p>
 <h4 id="user-content-Section22" dir="auto">2. Storage</h4>
+<p>
+<p>Storage còn gọi Bộ nhớ máy tính, thường được gọi là ổ nhớ (storage) hoặc bộ nhớ (memory), là một
+    thiết bị công nghệ bao gồm các phần tử máy tính và lưu trữ dữ liệu, được dùng để duy trì dữ liệu số. Nó là một linh
+    kiện cơ bản có chức năng cốt lõi của các máy tính.</p>
+
+<p>Bộ nhớ máy tính bao gồm các bộ nhớ điện tĩnh (non-volatile memory) để lưu trữ được dữ liệu của máy tính một cách lâu
+    dài (khi kết thúc một phiên làm việc của máy tính thì dữ liệu không bị mất đi), hoặc bộ nhớ điện động (volatile
+    memory) để lưu dữ liệu tạm thời trong quá trình làm việc của máy tính (khi kết thúc một phiên làm việc của máy tính
+    thì bộ nhớ này bị mất hết dữ liệu).</p>
+
+<p>Các thiết bị lưu trữ dữ liệu cho bộ nhớ lâu dài bao gồm: Đĩa cứng, Đĩa mềm, Đĩa quang, Băng từ, ROM, các loại bút
+    nhớ...</p>
+
+<p>Các thiết bị lưu trữ dữ liệu tạm thời trong quá trình làm việc: RAM máy tính, Cache...</p>
+
+<p>Hầu hết các bộ nhớ nêu trên thuộc loại bộ nhớ có thể truy cập dữ liệu ngẫu nhiên, riêng băng từ là loại bộ nhớ truy
+    cập tuần tự.</p>
+
+<p>Bộ nhớ máy tính có thể chia thành hai dạng: Bộ nhớ trong (main memory) và bộ nhớ ngoài (external storage).</p>
+</p>
 <h4 id="user-content-Section23" dir="auto">3. Network</h4>
 <h4 id="user-content-Section24" dir="auto">4. Policy</h4>
 <h4 id="user-content-Section25" dir="auto">5. Image Caching</h4>
