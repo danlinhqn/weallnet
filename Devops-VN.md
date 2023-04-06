@@ -244,10 +244,10 @@
     Sau đó, nó tiếp tục được đưa vào các nền tảng đa phương tiện hàng đầu như YouTube và Spotify,
     các ứng dụng truyền thông như Skype và trình phát đa phương tiện VLC.</p>
 <h4>Hệ thống phân giải tên miền (DNS)</h4>
-
-* Container giống như 1 chuẩn mới, mà rất nhiều ứng dụng được đóng gói thành các container khác nhau, sau đó mới được
-Deploy
-lên server ( Sau đó ta có thể dùng các công nghệ để quản lý các Container này, tiêu biểu ví dụ như dùng Docker
+<h4>Container</h4>
+<p>Container giống như 1 chuẩn mới, mà rất nhiều ứng dụng được đóng gói thành các container khác nhau, sau đó mới được
+    Deploy lên server ( Sau đó ta có thể dùng các công nghệ để quản lý các Container này, tiêu biểu ví dụ như dùng
+    Docker</p>
 <hr>
 </hr>
 <h3>Still Loading ...</h3>
