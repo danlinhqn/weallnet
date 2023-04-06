@@ -272,11 +272,11 @@
     </table>
 </div>
 <h4>Congestion Control</h4>
-<h4>Pods là gì</h4>
+<h4>Pod là gì</h4>
 <p>
-    Pods là thành phần cơ bản nhất trong một hệ thống Kubernetes.
-    Pods nằm trong các woker nodes là nơi chứa các container (một hay nhiều).
-    Mỗi pods giống như một logic machine riêng biệt (có IP, hostname, tiếng trình riêng).
+    Pod là thành phần cơ bản nhất trong một hệ thống Kubernetes.
+    Pod nằm trong các woker nodes là nơi chứa các container (một hay nhiều).
+    Mỗi pod giống như một logic machine riêng biệt (có IP, hostname, tiếng trình riêng).
 </p>
 <h4>Giao thức truyền tải file đơn giản (TFTP)</h4>
 <p>
@@ -359,6 +359,12 @@
 
 <h3 id="user-content-Section2" dir="auto">II. DevOps</h3>
 <h4 id="user-content-Section21" dir="auto">1. Explain about container</h4>
+<p>Container giống như 1 chuẩn mới, mà rất nhiều ứng dụng được đóng gói thành các container khác nhau, sau đó mới được
+    Deploy lên server
+    ( Sau đó ta có thể dùng các công nghệ để quản lý các Container này, tiêu biểu ví dụ như dùng Docker</p>
+<p>VD như trong mỗi Pod sẽ quản lý được nhiều container, Kubernetes API sẽ không thể can thiệp vào container mà nó phải
+    can thiệp vào container thông qua pod
+</p>
 
 
 <h4 id="user-content-Section22" dir="auto">2. Storage</h4>
