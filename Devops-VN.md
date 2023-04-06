@@ -33,10 +33,24 @@
     </li>
 
     <li>
-        <h3><a href="#Section22">Storage</a></h3>
+        <h3>Storage</h3>
     </li>
 
+    <li>
+        <h3>Network</h3>
+    </li>
 
+    <li>
+        <h3>Policy</h3>
+    </li>
+
+    <li>
+        <h3>Image Caching</h3>
+    </li>
+
+    <li>
+        <h3>Components of Kubernetes</h3>
+    </li>
 </ol>
 
 
