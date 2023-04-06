@@ -47,6 +47,38 @@
     <li>
         <h3><a href="#Section15">Cloud Load Balancing</a></h3>
     </li>
+
+
+    <li>
+        <h3><a href="#Section16">Application Load Balancer</a></h3>
+    </li>
+
+    <li>
+        <h3><a href="#Section17">Software Load Balancers</a></h3>
+    </li>
+
+    <li>
+        <h3><a href="#Section18">Hardware Load Balancers</a></h3>
+    </li>
+
+    <li>
+        <h3><a href="#Section19">Virtual Load Balancers</a></h3>
+    </li>
+
+    <li>
+        <h3><a href="#Section200">Public Load Balancers</a></h3>
+    </li>
+
+    <li>
+        <h3><a href="#Section21">Private Load Balancers</a></h3>
+    </li>
+
+
+    <li>
+        <h3><a href="#Section15">Azure Load Balancer</a></h3>
+    </li>
+
+
 </ol>
 <h3><a href="#Section3">II. Website caching architecture</a></h3>
 <h3><a href="#Section4">III. Monitoring & logging for services</a></h3>
