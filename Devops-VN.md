@@ -308,7 +308,7 @@
 <p>
     Là hệ thống kiểm tra định kỹ, thường xuyên đo đạc các chỉ số của hệ thống, từ đó cung cấp cho chúng ta
     cái nhìn chính xác và tổng quan, tình trạng mà hệ thống đang hoạt động, giúp ta phát hiện các rủi ro gây hại cho
-    hệ thống
+    hệ thống.
 </p>
 
 <h3 id="user-content-Section2" dir="auto">II. DevOps</h3>
