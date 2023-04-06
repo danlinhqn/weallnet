@@ -285,6 +285,25 @@
     Docker</p>
 
 <h3 id="user-content-Section3" dir="auto">II. Website caching architecture</h3>
+<P>
+    Cache trên web là một ứng dụng công nghệ cho bộ nhớ tạm thời (caching) của các dữ liệu từ trang Web, ví dụ các trang
+    HTML và các hình ảnh nhằm mục đích giảm lag khi server hoạt động. Một hệ thống bộ nhớ lưu trữ nhiều dữ liệu mà nó
+    cho phép; các yêu cầu xuất hiện thêm như cần lưu trữ thêm sẽ được thực hiện nếu hệ thống này cho phép.
+
+
+</P>
+<p>
+    Thay vì lúc nào bạn cũng phải bỏ thời gian tối ưu hóa máy tính thì việc sử dụng Web Cache giúp tăng được tốc độ load
+    của server. Thử tưởng tượng đang có rất nhiều khách hàng, họ cùng có mối quan tâm đối với một trang Web. Ứng dụng sẽ
+    hoạt động bằng cách lưu giữ các “bản sao” của các trang Web đó và sẽ đáp ứng các nhu cầu của người dùng bằng những
+    “bản sao” giống hoàn toàn với bản chính mà không cần phải quay trở về Web nguồn. Việc quay trở về như thế sẽ làm
+    server của Web hoạt động rất chậm, tình trạng “lag”, khiến cho khách hàng gần như mất thiện cảm với trang web của
+    bạn.
+
+
+</p>
+
+<a href="https://longvan.net/web-cache-la-gi.html">Link tham khảo thêm</a>
 <h3 id="user-content-Section4" dir="auto">III. Monitoring & logging for services</h3>
 
 <div id="DevOps">
