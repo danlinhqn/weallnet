@@ -352,21 +352,21 @@
     Deploy lên server ( Sau đó ta có thể dùng các công nghệ để quản lý các Container này, tiêu biểu ví dụ như dùng
     Docker</p>
 
-<h4 id="user-content-Section16" dir="auto">Application Load Balancer</h4>
+<h4 id="user-content-Section16" dir="auto">6. Application Load Balancer</h4>
 <p>Application Load Balancer hỗ trợ quá trình cân 
     bằng tải ứng dụng bằng cách sử dụng các giao thức HTTP và HTTPS (HTTP bảo mật).</p>
 
-<h4 id="user-content-Section17" dir="auto">Software Load Balancers</h4>
+<h4 id="user-content-Section17" dir="auto">7. Software Load Balancers</h4>
 
-<h4 id="user-content-Section18" dir="auto">Hardware Load Balancers</h4>
+<h4 id="user-content-Section18" dir="auto">8. Hardware Load Balancers</h4>
 
-<h4 id="user-content-Section19" dir="auto">Virtual Load Balancers</h4>
+<h4 id="user-content-Section19" dir="auto">9. Virtual Load Balancers</h4>
 
-<h4 id="user-content-Section111" dir="auto">Public Load Balancers</h4>
+<h4 id="user-content-Section111" dir="auto">10. Public Load Balancers</h4>
 
-<h4 id="user-content-Section112" dir="auto">Private Load Balancers</h4>
+<h4 id="user-content-Section112" dir="auto">11. Private Load Balancers</h4>
 
-<h4 id="user-content-Section113" dir="auto">Azure Load Balancer</h4>
+<h4 id="user-content-Section113" dir="auto">12. Azure Load Balancer</h4>
 
 <h3 id="user-content-Section3" dir="auto">II. Website caching architecture</h3>
 <P>
