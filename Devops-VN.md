@@ -353,20 +353,94 @@
     Docker</p>
 
 <h4 id="user-content-Section16" dir="auto">6. Application Load Balancer</h4>
-<p>Application Load Balancer hỗ trợ quá trình cân 
+<p>Application Load Balancer hỗ trợ quá trình cân
     bằng tải ứng dụng bằng cách sử dụng các giao thức HTTP và HTTPS (HTTP bảo mật).</p>
 
 <h4 id="user-content-Section17" dir="auto">7. Software Load Balancers</h4>
 
+<p>Software Load Balancer (SLB) là một giải pháp phần mềm cho phép phân phối tải các yêu cầu từ khách hàng đến các máy
+    chủ phục vụ. Nó là một phần mềm được cài đặt trên một máy chủ ở giữa khách hàng và các máy chủ phục vụ
+    và sử dụng các thuật toán phân phối tải để phân phối lưu lượng truy cập đến các máy chủ khác nhau.</p>
+
+<p>Với SLB, một tập hợp các máy chủ phục vụ có thể được tổ chức thành một nhóm, gọi là pool. Các máy chủ trong pool có
+    thể được cấu hình để chia sẻ tải lên nhau, điều này giúp giảm thiểu tình trạng quá tải trên một máy chủ và tăng khả
+    năng khả năng chịu tải của hệ thống.</p>
+
+<p>SLB là một giải pháp phần mềm linh hoạt hơn các giải pháp cứng (hardware) load balancer và có thể triển khai trên các
+    máy chủ thông thường, giúp giảm thiểu chi phí đầu tư cho phần cứng.</p>
+
 <h4 id="user-content-Section18" dir="auto">8. Hardware Load Balancers</h4>
+
+<p>Hardware Load Balancer (HLB) là một thiết bị phần cứng được thiết kế để phân phối tải các yêu cầu từ khách hàng đến
+    các máy chủ phục vụ. Nó là một thiết bị độc lập, được cài đặt ở giữa khách hàng và các máy chủ phục vụ và sử dụng
+    các thuật toán phân phối tải để phân phối lưu lượng truy cập đến các máy chủ khác nhau.</p>
+<p>Các HLB thường được cấu hình để tạo thành một nhóm máy chủ phục vụ có thể chia sẻ tải lên nhau, điều này giúp giảm
+    thiểu tình trạng quá tải trên một máy chủ và tăng khả năng khả năng chịu tải của hệ thống. Các HLB cũng có thể được
+    tích hợp với các tính năng bảo mật, như kiểm soát truy cập và mã hóa, để bảo vệ hệ thống khỏi các cuộc tấn công
+    mạng.</p>
+<p>Các HLB thường được sử dụng trong các môi trường doanh nghiệp lớn hoặc các ứng dụng web có lưu lượng truy cập cao. So
+    với phần mềm Load Balancer, HLB có thể cung cấp khả năng xử lý lưu lượng truy cập lớn hơn và đáng tin cậy hơn vì nó
+    được thiết kế để hoạt động trên phần cứng tốt hơn. Tuy nhiên, chi phí đầu tư và bảo trì cho HLB có thể cao hơn so
+    với phần mềm Load Balancer.</p>
 
 <h4 id="user-content-Section19" dir="auto">9. Virtual Load Balancers</h4>
 
+<p>Virtual Load Balancer (VLB) là một giải pháp phần mềm để phân phối tải trên các ứng dụng và hệ thống mạng. Nó được
+    triển khai dưới dạng ảo hóa trên một máy chủ vật lý hoặc trên một nền tảng điện toán đám mây. </p>
+<p>VLB cung cấp khả năng phân phối tải đến các máy chủ ảo và vật lý, cũng như quản lý lưu lượng truy cập giữa các ứng
+    dụng và dịch vụ khác nhau. Nó sử dụng các thuật toán phân phối tải để phân phối các yêu cầu đến các máy chủ phục vụ
+    khác nhau và có thể cấu hình để cân bằng tải đối với các ứng dụng và dịch vụ khác nhau.</p>
+<p>VLB cung cấp khả năng mở rộng linh hoạt và có thể được triển khai trong môi trường đám mây công cộng hoặc riêng tư.
+    Nó có thể được cấu hình để hoạt động như một dịch vụ độc lập hoặc như một phần của một cụm hệ thống. VLB có thể là
+    một giải pháp tốt cho các tổ chức muốn cân bằng tải và quản lý lưu lượng truy cập của họ trong môi trường ảo hóa và
+    đám mây.</p>
+
 <h4 id="user-content-Section111" dir="auto">10. Public Load Balancers</h4>
+
+<p>Public Load Balancer (PLB) là một loại Load Balancer được triển khai trên một mạng công cộng như internet và được sử
+    dụng để phân phối tải trên các ứng dụng hoặc dịch vụ trên các máy chủ được triển khai trên nhiều vùng địa lý khác
+    nhau.</p>
+<p>PLB có thể được sử dụng để phân phối tải cho các ứng dụng web, ứng dụng di động và các dịch vụ đám mây công cộng,
+    chẳng hạn như Amazon Web Services, Microsoft Azure hay Google Cloud Platform. Nó sử dụng các thuật toán phân phối
+    tải để phân phối các yêu cầu đến các máy chủ phục vụ khác nhau, giúp cân bằng tải và tăng khả năng khả năng chịu tải
+    của hệ thống. </p>
+<p>PLB có thể cung cấp các tính năng bảo mật, như kiểm soát truy cập và mã hóa, để bảo vệ hệ thống khỏi các cuộc tấn
+    công mạng và cũng có thể hỗ trợ các tính năng như phân tích đăng nhập, giám sát và theo dõi hoạt động để giúp quản
+    trị viên quản lý và giám sát hệ thống.</p>
+<p>PLB là một giải pháp tốt cho các tổ chức muốn triển khai các ứng dụng hoặc dịch vụ của họ trên một mạng công cộng và
+    muốn có khả năng mở rộng linh hoạt và cân bằng tải trên các máy chủ phục vụ được triển khai trên nhiều vùng địa lý
+    khác nhau.</p>
 
 <h4 id="user-content-Section112" dir="auto">11. Private Load Balancers</h4>
 
+<p>Private Load Balancer (PrLB) là một giải pháp phân phối tải được triển khai trên một mạng riêng, chẳng hạn như một
+    mạng doanh nghiệp, một mạng LAN (Local Area Network) hoặc một mạng VPN (Virtual Private Network).</p>
+<p>PrLB được sử dụng để phân phối tải trên các ứng dụng và dịch vụ trên các máy chủ được triển khai trên một mạng riêng,
+    giúp cân bằng tải và tăng khả năng chịu tải của hệ thống. Nó sử dụng các thuật toán phân phối tải để phân phối các
+    yêu cầu đến các máy chủ phục vụ khác nhau, giúp tối ưu hóa hiệu suất của hệ thống.</p>
+<p>PrLB cung cấp khả năng quản lý và giám sát lưu lượng truy cập giữa các ứng dụng và dịch vụ khác nhau, giúp quản trị
+    viên quản lý và giám sát hệ thống. Nó cũng có thể được cấu hình để hoạt động như một dịch vụ độc lập hoặc như một
+    phần của một cụm hệ thống. </p>
+<p>PrLB là một giải pháp tốt cho các tổ chức muốn triển khai các ứng dụng hoặc dịch vụ của họ trên một mạng riêng và
+    muốn có khả năng mở rộng linh hoạt và cân bằng tải trên các máy chủ phục vụ được triển khai trên một mạng riêng. Nó
+    cũng cung cấp tính bảo mật cao hơn so với PLB vì nó được triển khai trên một mạng riêng được kiểm soát.</p>
+
 <h4 id="user-content-Section113" dir="auto">12. Azure Load Balancer</h4>
+<p>Azure Load Balancer là một dịch vụ phân phối tải được cung cấp bởi Microsoft Azure, giúp phân phối tải trên các ứng
+    dụng và dịch vụ trên các máy chủ ảo trong một mạng ảo (Virtual Network) của Azure. Nó cung cấp khả năng cân bằng tải
+    lưu lượng truy cập đến các máy chủ ảo (VMs) hoạt động trong mạng ảo và giúp tăng cường tính sẵn sàng và khả năng mở
+    rộng của ứng dụng.</p>
+
+<p>Azure Load Balancer có thể được cấu hình để hoạt động ở hai chế độ:</p>
+<p>- Chế độ Basic: cung cấp tính năng phân phối tải cho các máy chủ ảo, với các thuật toán cân bằng tải Round Robin và
+    Hash-based.</p>
+<p>- Chế độ Standard: bên cạnh các tính năng của chế độ Basic, còn cung cấp các tính năng nâng cao hơn, bao gồm tính
+    năng quản lý và giám sát lưu lượng truy cập, tính năng cân bằng tải dựa trên các thông tin TCP/UDP, tính năng cân
+    bằng tải trên các dịch vụ hỗ trợ các giao thức không liên tục và khả năng kết nối phân tán trên các vùng địa lý khác
+    nhau.</p>
+
+<p>Azure Load Balancer là một trong những dịch vụ quan trọng của Microsoft Azure và được sử dụng rộng rãi để cân bằng
+    tải trên các ứng dụng và dịch vụ hoạt động trên các máy chủ ảo trong mạng ảo của Azure.</p>
 
 <h3 id="user-content-Section3" dir="auto">II. Website caching architecture</h3>
 <P>
